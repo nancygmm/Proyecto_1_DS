@@ -1,6 +1,6 @@
 # Proyecto 1 - Obtención y Limpieza de Datos
 
-Este proyecto corresponde al curso de **Minería de Datos** y tiene como objetivo realizar un análisis y limpieza inicial de un conjunto de archivos `.csv` que contienen información de establecimientos educativos por departamento.
+Este proyecto corresponde al curso de **Data Science** y tiene como objetivo realizar un análisis y limpieza inicial de un conjunto de archivos `.csv` que contienen información de establecimientos educativos por departamento.
 
 ---
 
