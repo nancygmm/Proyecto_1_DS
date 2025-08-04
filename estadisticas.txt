@@ -1,2198 +1,6 @@
 Análisis de todos los datasets
 ============================================================
 
---- Analizando el archivo: alta_verapaz.csv ---
-
-ESTADÍSTICAS DETALLADAS:
- Filas iniciales: 294
- Variables iniciales: 18
-
- Variable CODIGO:
- Tipo: object
- Valores únicos: 294
- Valores nulos: 0
- Valores duplicados: 0
- Valor más común: 16-01-0138-46
-
- Variable Unnamed: 1:
- Tipo: float64
- Valores únicos: 0
- Valores nulos: 294
- Valores duplicados: 293
- Min: nan
- Max: nan
- Media: nan
-
- Variable DISTRITO:
- Tipo: object
- Valores únicos: 40
- Valores nulos: 0
- Valores duplicados: 254
- Valor más común: 16-031
-
- Variable DEPARTAMENTO:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 293
- Valor más común: ALTA VERAPAZ
-
- Variable MUNICIPIO:
- Tipo: object
- Valores únicos: 17
- Valores nulos: 0
- Valores duplicados: 277
- Valor más común: COBAN
-
- Variable ESTABLECIMIENTO:
- Tipo: object
- Valores únicos: 149
- Valores nulos: 0
- Valores duplicados: 145
- Valor más común: INSTITUTO NACIONAL DE EDUCACION DIVERSIFICADA
-
- Variable DIRECCION:
- Tipo: object
- Valores únicos: 209
- Valores nulos: 0
- Valores duplicados: 85
- Valor más común: BARRIO EL CENTRO
-
- Variable TELEFONO:
- Tipo: object
- Valores únicos: 202
- Valores nulos: 6
- Valores duplicados: 91
- Valor más común: 45353648
-
- Variable SUPERVISOR:
- Tipo: object
- Valores únicos: 39
- Valores nulos: 0
- Valores duplicados: 255
- Valor más común: PATRICIO NAJARRO ASENCIO
-
- Variable DIRECTOR:
- Tipo: object
- Valores únicos: 183
- Valores nulos: 0
- Valores duplicados: 111
- Valor más común: JUAN RAX
-
- Variable NIVEL:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 293
- Valor más común: DIVERSIFICADO
-
- Variable SECTOR:
- Tipo: object
- Valores únicos: 4
- Valores nulos: 0
- Valores duplicados: 290
- Valor más común: PRIVADO
-
- Variable AREA:
- Tipo: object
- Valores únicos: 2
- Valores nulos: 0
- Valores duplicados: 292
- Valor más común: URBANA
-
- Variable STATUS:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 293
- Valor más común: ABIERTA
-
- Variable MODALIDAD:
- Tipo: object
- Valores únicos: 2
- Valores nulos: 0
- Valores duplicados: 292
- Valor más común: MONOLINGUE
-
- Variable JORNADA:
- Tipo: object
- Valores únicos: 5
- Valores nulos: 0
- Valores duplicados: 289
- Valor más común: VESPERTINA
-
- Variable PLAN:
- Tipo: object
- Valores únicos: 7
- Valores nulos: 0
- Valores duplicados: 287
- Valor más común: DIARIO(REGULAR)
-
- Variable DEPARTAMENTAL:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 293
- Valor más común: ALTA VERAPAZ
-
-==================================================
-
---- Analizando el archivo: baja_verapaz.csv ---
-
-ESTADÍSTICAS DETALLADAS:
- Filas iniciales: 94
- Variables iniciales: 18
-
- Variable CODIGO:
- Tipo: object
- Valores únicos: 94
- Valores nulos: 0
- Valores duplicados: 0
- Valor más común: 15-01-0050-46
-
- Variable Unnamed: 1:
- Tipo: float64
- Valores únicos: 0
- Valores nulos: 94
- Valores duplicados: 93
- Min: nan
- Max: nan
- Media: nan
-
- Variable DISTRITO:
- Tipo: object
- Valores únicos: 10
- Valores nulos: 0
- Valores duplicados: 84
- Valor más común: 15-001
-
- Variable DEPARTAMENTO:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 93
- Valor más común: BAJA VERAPAZ
-
- Variable MUNICIPIO:
- Tipo: object
- Valores únicos: 8
- Valores nulos: 0
- Valores duplicados: 86
- Valor más común: SALAMA
-
- Variable ESTABLECIMIENTO:
- Tipo: object
- Valores únicos: 43
- Valores nulos: 0
- Valores duplicados: 51
- Valor más común: INSTITUTO NACIONAL DE EDUCACION DIVERSIFICADA
-
- Variable DIRECCION:
- Tipo: object
- Valores únicos: 65
- Valores nulos: 0
- Valores duplicados: 29
- Valor más común: BARRIO MAGDALENA
-
- Variable TELEFONO:
- Tipo: object
- Valores únicos: 68
- Valores nulos: 0
- Valores duplicados: 26
- Valor más común: 54887718
-
- Variable SUPERVISOR:
- Tipo: object
- Valores únicos: 10
- Valores nulos: 0
- Valores duplicados: 84
- Valor más común: IRIS QUETZAL͠ORDOхZ TURCIOS
-
- Variable DIRECTOR:
- Tipo: object
- Valores únicos: 62
- Valores nulos: 0
- Valores duplicados: 32
- Valor más común: ALONDRA VANESSA VALEY IXPAT|/td>
-
- Variable NIVEL:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 93
- Valor más común: DIVERSIFICADO
-
- Variable SECTOR:
- Tipo: object
- Valores únicos: 3
- Valores nulos: 0
- Valores duplicados: 91
- Valor más común: PRIVADO
-
- Variable AREA:
- Tipo: object
- Valores únicos: 2
- Valores nulos: 0
- Valores duplicados: 92
- Valor más común: URBANA
-
- Variable STATUS:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 93
- Valor más común: ABIERTA
-
- Variable MODALIDAD:
- Tipo: object
- Valores únicos: 2
- Valores nulos: 0
- Valores duplicados: 92
- Valor más común: MONOLINGUE
-
- Variable JORNADA:
- Tipo: object
- Valores únicos: 5
- Valores nulos: 0
- Valores duplicados: 89
- Valor más común: VESPERTINA
-
- Variable PLAN:
- Tipo: object
- Valores únicos: 7
- Valores nulos: 0
- Valores duplicados: 87
- Valor más común: DIARIO(REGULAR)
-
- Variable DEPARTAMENTAL:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 93
- Valor más común: BAJA VERAPAZ
-
-==================================================
-
---- Analizando el archivo: chimaltenango.csv ---
-
-ESTADÍSTICAS DETALLADAS:
- Filas iniciales: 300
- Variables iniciales: 18
-
- Variable CODIGO:
- Tipo: object
- Valores únicos: 300
- Valores nulos: 0
- Valores duplicados: 0
- Valor más común: 04-01-0044-46
-
- Variable Unnamed: 1:
- Tipo: float64
- Valores únicos: 0
- Valores nulos: 300
- Valores duplicados: 299
- Min: nan
- Max: nan
- Media: nan
-
- Variable DISTRITO:
- Tipo: object
- Valores únicos: 34
- Valores nulos: 0
- Valores duplicados: 266
- Valor más común: 04-001
-
- Variable DEPARTAMENTO:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 299
- Valor más común: CHIMALTENANGO
-
- Variable MUNICIPIO:
- Tipo: object
- Valores únicos: 16
- Valores nulos: 0
- Valores duplicados: 284
- Valor más común: CHIMALTENANGO
-
- Variable ESTABLECIMIENTO:
- Tipo: object
- Valores únicos: 175
- Valores nulos: 0
- Valores duplicados: 125
- Valor más común: INSTITUTO EVANGɌICO AMɒICA LATINA
-
- Variable DIRECCION:
- Tipo: object
- Valores únicos: 177
- Valores nulos: 0
- Valores duplicados: 123
- Valor más común: 8A. AVENIDA 3-59 ZONA 2
-
- Variable TELEFONO:
- Tipo: object
- Valores únicos: 162
- Valores nulos: 0
- Valores duplicados: 138
- Valor más común: 77282600
-
- Variable SUPERVISOR:
- Tipo: object
- Valores únicos: 32
- Valores nulos: 0
- Valores duplicados: 268
- Valor más común: ISMAEL CRISTAL AJCET
-
- Variable DIRECTOR:
- Tipo: object
- Valores únicos: 156
- Valores nulos: 0
- Valores duplicados: 144
- Valor más común: AXEL EDUARDO ESTRADA CHVEZ
-
- Variable NIVEL:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 299
- Valor más común: DIVERSIFICADO
-
- Variable SECTOR:
- Tipo: object
- Valores únicos: 4
- Valores nulos: 0
- Valores duplicados: 296
- Valor más común: PRIVADO
-
- Variable AREA:
- Tipo: object
- Valores únicos: 2
- Valores nulos: 0
- Valores duplicados: 298
- Valor más común: URBANA
-
- Variable STATUS:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 299
- Valor más común: ABIERTA
-
- Variable MODALIDAD:
- Tipo: object
- Valores únicos: 2
- Valores nulos: 0
- Valores duplicados: 298
- Valor más común: MONOLINGUE
-
- Variable JORNADA:
- Tipo: object
- Valores únicos: 6
- Valores nulos: 0
- Valores duplicados: 294
- Valor más común: DOBLE
-
- Variable PLAN:
- Tipo: object
- Valores únicos: 8
- Valores nulos: 0
- Valores duplicados: 292
- Valor más común: DIARIO(REGULAR)
-
- Variable DEPARTAMENTAL:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 299
- Valor más común: CHIMALTENANGO
-
-==================================================
-
---- Analizando el archivo: chiquimula.csv ---
-
-ESTADÍSTICAS DETALLADAS:
- Filas iniciales: 136
- Variables iniciales: 18
-
- Variable CODIGO:
- Tipo: object
- Valores únicos: 136
- Valores nulos: 0
- Valores duplicados: 0
- Valor más común: 20-01-0024-46
-
- Variable Unnamed: 1:
- Tipo: float64
- Valores únicos: 0
- Valores nulos: 136
- Valores duplicados: 135
- Min: nan
- Max: nan
- Media: nan
-
- Variable DISTRITO:
- Tipo: object
- Valores únicos: 23
- Valores nulos: 0
- Valores duplicados: 113
- Valor más común: 20-030
-
- Variable DEPARTAMENTO:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 135
- Valor más común: CHIQUIMULA
-
- Variable MUNICIPIO:
- Tipo: object
- Valores únicos: 11
- Valores nulos: 0
- Valores duplicados: 125
- Valor más común: CHIQUIMULA
-
- Variable ESTABLECIMIENTO:
- Tipo: object
- Valores únicos: 85
- Valores nulos: 0
- Valores duplicados: 51
- Valor más común: CENTRO DE EDUCACIӎ EXTRAESCOLAR -CEEX- FUNCAFE
-
- Variable DIRECCION:
- Tipo: object
- Valores únicos: 98
- Valores nulos: 0
- Valores duplicados: 38
- Valor más común: BARRIO SAN LORENZO
-
- Variable TELEFONO:
- Tipo: float64
- Valores únicos: 89
- Valores nulos: 7
- Valores duplicados: 46
- Min: 30194721.0
- Max: 79465751.0
- Media: 59003591.95
-
- Variable SUPERVISOR:
- Tipo: object
- Valores únicos: 21
- Valores nulos: 0
- Valores duplicados: 115
- Valor más común: SILVIA MARILENA BUEZO MARTINEZ
-
- Variable DIRECTOR:
- Tipo: object
- Valores únicos: 95
- Valores nulos: 2
- Valores duplicados: 40
- Valor más común: ELOINA MARGOTH SANDOVAL VILLAFUERTE
-
- Variable NIVEL:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 135
- Valor más común: DIVERSIFICADO
-
- Variable SECTOR:
- Tipo: object
- Valores únicos: 4
- Valores nulos: 0
- Valores duplicados: 132
- Valor más común: PRIVADO
-
- Variable AREA:
- Tipo: object
- Valores únicos: 2
- Valores nulos: 0
- Valores duplicados: 134
- Valor más común: URBANA
-
- Variable STATUS:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 135
- Valor más común: ABIERTA
-
- Variable MODALIDAD:
- Tipo: object
- Valores únicos: 2
- Valores nulos: 0
- Valores duplicados: 134
- Valor más común: MONOLINGUE
-
- Variable JORNADA:
- Tipo: object
- Valores únicos: 6
- Valores nulos: 0
- Valores duplicados: 130
- Valor más común: DOBLE
-
- Variable PLAN:
- Tipo: object
- Valores únicos: 5
- Valores nulos: 0
- Valores duplicados: 131
- Valor más común: DIARIO(REGULAR)
-
- Variable DEPARTAMENTAL:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 135
- Valor más común: CHIQUIMULA
-
-==================================================
-
---- Analizando el archivo: ciudad_capital.csv ---
-
-ESTADÍSTICAS DETALLADAS:
- Filas iniciales: 859
- Variables iniciales: 18
-
- Variable CODIGO:
- Tipo: object
- Valores únicos: 859
- Valores nulos: 0
- Valores duplicados: 0
- Valor más común: 00-01-0158-46
-
- Variable Unnamed: 1:
- Tipo: float64
- Valores únicos: 0
- Valores nulos: 859
- Valores duplicados: 858
- Min: nan
- Max: nan
- Media: nan
-
- Variable DISTRITO:
- Tipo: object
- Valores únicos: 49
- Valores nulos: 0
- Valores duplicados: 810
- Valor más común: 01-403
-
- Variable DEPARTAMENTO:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 858
- Valor más común: CIUDAD CAPITAL
-
- Variable MUNICIPIO:
- Tipo: object
- Valores únicos: 21
- Valores nulos: 0
- Valores duplicados: 838
- Valor más común: ZONA 1
-
- Variable ESTABLECIMIENTO:
- Tipo: object
- Valores únicos: 563
- Valores nulos: 0
- Valores duplicados: 296
- Valor más común: INSTITUTO GUILLERMO PUTZEYS LVAREZ
-
- Variable DIRECCION:
- Tipo: object
- Valores únicos: 619
- Valores nulos: 0
- Valores duplicados: 240
- Valor más común: 11 CALLE 3-59
-
- Variable TELEFONO:
- Tipo: int64
- Valores únicos: 529
- Valores nulos: 0
- Valores duplicados: 330
- Min: 2223228
- Max: 59996502
- Media: 28682005.13
-
- Variable SUPERVISOR:
- Tipo: object
- Valores únicos: 46
- Valores nulos: 0
- Valores duplicados: 813
- Valor más común: CARLOS HUMBERTO GONZLEZ DE LEӎ
-
- Variable DIRECTOR:
- Tipo: object
- Valores únicos: 460
- Valores nulos: 1
- Valores duplicados: 398
- Valor más común: MARCO TULIO VARGAS ALVARADO
-
- Variable NIVEL:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 858
- Valor más común: DIVERSIFICADO
-
- Variable SECTOR:
- Tipo: object
- Valores únicos: 4
- Valores nulos: 0
- Valores duplicados: 855
- Valor más común: PRIVADO
-
- Variable AREA:
- Tipo: object
- Valores únicos: 3
- Valores nulos: 0
- Valores duplicados: 856
- Valor más común: URBANA
-
- Variable STATUS:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 858
- Valor más común: ABIERTA
-
- Variable MODALIDAD:
- Tipo: object
- Valores únicos: 2
- Valores nulos: 0
- Valores duplicados: 857
- Valor más común: MONOLINGUE
-
- Variable JORNADA:
- Tipo: object
- Valores únicos: 6
- Valores nulos: 0
- Valores duplicados: 853
- Valor más común: MATUTINA
-
- Variable PLAN:
- Tipo: object
- Valores únicos: 9
- Valores nulos: 0
- Valores duplicados: 850
- Valor más común: DIARIO(REGULAR)
-
- Variable DEPARTAMENTAL:
- Tipo: object
- Valores únicos: 4
- Valores nulos: 0
- Valores duplicados: 855
- Valor más común: GUATEMALA NORTE
-
-==================================================
-
---- Analizando el archivo: el_progreso.csv ---
-
-ESTADÍSTICAS DETALLADAS:
- Filas iniciales: 97
- Variables iniciales: 18
-
- Variable CODIGO:
- Tipo: object
- Valores únicos: 97
- Valores nulos: 0
- Valores duplicados: 0
- Valor más común: 02-01-0027-46
-
- Variable Unnamed: 1:
- Tipo: float64
- Valores únicos: 0
- Valores nulos: 97
- Valores duplicados: 96
- Min: nan
- Max: nan
- Media: nan
-
- Variable DISTRITO:
- Tipo: object
- Valores únicos: 15
- Valores nulos: 0
- Valores duplicados: 82
- Valor más común: 02-015
-
- Variable DEPARTAMENTO:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 96
- Valor más común: EL PROGRESO
-
- Variable MUNICIPIO:
- Tipo: object
- Valores únicos: 8
- Valores nulos: 0
- Valores duplicados: 89
- Valor más común: SAN AGUSTIN ACASAGUASTLAN
-
- Variable ESTABLECIMIENTO:
- Tipo: object
- Valores únicos: 56
- Valores nulos: 0
- Valores duplicados: 41
- Valor más común: INSTITUTO NACIONAL DE EDUCACION DIVERSIFICADA
-
- Variable DIRECCION:
- Tipo: object
- Valores únicos: 59
- Valores nulos: 0
- Valores duplicados: 38
- Valor más común: BARRIO EL PORVENIR
-
- Variable TELEFONO:
- Tipo: float64
- Valores únicos: 74
- Valores nulos: 2
- Valores duplicados: 22
- Min: 3033.0
- Max: 79637575.0
- Media: 57970683.76
-
- Variable SUPERVISOR:
- Tipo: object
- Valores únicos: 15
- Valores nulos: 0
- Valores duplicados: 82
- Valor más común: EDNA LILY ALDANA GODOY
-
- Variable DIRECTOR:
- Tipo: object
- Valores únicos: 66
- Valores nulos: 0
- Valores duplicados: 31
- Valor más común: DELFINA MARISOL PAZOS RAMOS
-
- Variable NIVEL:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 96
- Valor más común: DIVERSIFICADO
-
- Variable SECTOR:
- Tipo: object
- Valores únicos: 4
- Valores nulos: 0
- Valores duplicados: 93
- Valor más común: PRIVADO
-
- Variable AREA:
- Tipo: object
- Valores únicos: 2
- Valores nulos: 0
- Valores duplicados: 95
- Valor más común: URBANA
-
- Variable STATUS:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 96
- Valor más común: ABIERTA
-
- Variable MODALIDAD:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 96
- Valor más común: MONOLINGUE
-
- Variable JORNADA:
- Tipo: object
- Valores únicos: 4
- Valores nulos: 0
- Valores duplicados: 93
- Valor más común: VESPERTINA
-
- Variable PLAN:
- Tipo: object
- Valores únicos: 4
- Valores nulos: 0
- Valores duplicados: 93
- Valor más común: DIARIO(REGULAR)
-
- Variable DEPARTAMENTAL:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 96
- Valor más común: EL PROGRESO
-
-==================================================
-
---- Analizando el archivo: escuintla.csv ---
-
-ESTADÍSTICAS DETALLADAS:
- Filas iniciales: 393
- Variables iniciales: 18
-
- Variable CODIGO:
- Tipo: object
- Valores únicos: 393
- Valores nulos: 0
- Valores duplicados: 0
- Valor más común: 05-01-0110-46
-
- Variable Unnamed: 1:
- Tipo: float64
- Valores únicos: 0
- Valores nulos: 393
- Valores duplicados: 392
- Min: nan
- Max: nan
- Media: nan
-
- Variable DISTRITO:
- Tipo: object
- Valores únicos: 17
- Valores nulos: 0
- Valores duplicados: 376
- Valor más común: 05-033
-
- Variable DEPARTAMENTO:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 392
- Valor más común: ESCUINTLA
-
- Variable MUNICIPIO:
- Tipo: object
- Valores únicos: 14
- Valores nulos: 0
- Valores duplicados: 379
- Valor más común: ESCUINTLA
-
- Variable ESTABLECIMIENTO:
- Tipo: object
- Valores únicos: 228
- Valores nulos: 0
- Valores duplicados: 165
- Valor más común: INSTITUTO NACIONAL DE EDUCACION DIVERSIFICADA
-
- Variable DIRECCION:
- Tipo: object
- Valores únicos: 292
- Valores nulos: 0
- Valores duplicados: 101
- Valor más común: 4TA. AVENIDA NORTE 1RA. CALLE "A" LOTIFICACIӎ EL BILBAO
-
- Variable TELEFONO:
- Tipo: object
- Valores únicos: 218
- Valores nulos: 2
- Valores duplicados: 174
- Valor más común: 77746400
-
- Variable SUPERVISOR:
- Tipo: object
- Valores únicos: 16
- Valores nulos: 0
- Valores duplicados: 377
- Valor más común: REMY ARTURO SINAY GUDIEL
-
- Variable DIRECTOR:
- Tipo: object
- Valores únicos: 207
- Valores nulos: 1
- Valores duplicados: 185
- Valor más común: MAŔ DOLORES PɒEZ TUCHN
-
- Variable NIVEL:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 392
- Valor más común: DIVERSIFICADO
-
- Variable SECTOR:
- Tipo: object
- Valores únicos: 4
- Valores nulos: 0
- Valores duplicados: 389
- Valor más común: PRIVADO
-
- Variable AREA:
- Tipo: object
- Valores únicos: 2
- Valores nulos: 0
- Valores duplicados: 391
- Valor más común: URBANA
-
- Variable STATUS:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 392
- Valor más común: ABIERTA
-
- Variable MODALIDAD:
- Tipo: object
- Valores únicos: 2
- Valores nulos: 0
- Valores duplicados: 391
- Valor más común: MONOLINGUE
-
- Variable JORNADA:
- Tipo: object
- Valores únicos: 6
- Valores nulos: 0
- Valores duplicados: 387
- Valor más común: DOBLE
-
- Variable PLAN:
- Tipo: object
- Valores únicos: 8
- Valores nulos: 0
- Valores duplicados: 385
- Valor más común: DIARIO(REGULAR)
-
- Variable DEPARTAMENTAL:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 392
- Valor más común: ESCUINTLA
-
-==================================================
-
---- Analizando el archivo: guatemala.csv ---
-
-ESTADÍSTICAS DETALLADAS:
- Filas iniciales: 1036
- Variables iniciales: 18
-
- Variable CODIGO:
- Tipo: object
- Valores únicos: 1036
- Valores nulos: 0
- Valores duplicados: 0
- Valor más común: 01-02-0012-46
-
- Variable Unnamed: 1:
- Tipo: float64
- Valores únicos: 0
- Valores nulos: 1036
- Valores duplicados: 1035
- Min: nan
- Max: nan
- Media: nan
-
- Variable DISTRITO:
- Tipo: object
- Valores únicos: 75
- Valores nulos: 0
- Valores duplicados: 961
- Valor más común: 01-411
-
- Variable DEPARTAMENTO:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 1035
- Valor más común: GUATEMALA
-
- Variable MUNICIPIO:
- Tipo: object
- Valores únicos: 16
- Valores nulos: 0
- Valores duplicados: 1020
- Valor más común: MIXCO
-
- Variable ESTABLECIMIENTO:
- Tipo: object
- Valores únicos: 657
- Valores nulos: 0
- Valores duplicados: 379
- Valor más común: INSTITUTO NACIONAL DE EDUCACION DIVERSIFICADA
-
- Variable DIRECCION:
- Tipo: object
- Valores únicos: 811
- Valores nulos: 0
- Valores duplicados: 225
- Valor más común: 30 AVENIDA 5-19 ZONA 4, COLONIA BOSQUES DE SAN NICOLS
-
- Variable TELEFONO:
- Tipo: object
- Valores únicos: 673
- Valores nulos: 4
- Valores duplicados: 362
- Valor más común: 24837931
-
- Variable SUPERVISOR:
- Tipo: object
- Valores únicos: 72
- Valores nulos: 0
- Valores duplicados: 964
- Valor más común: JUAN ENRIQUE MARTINEZ SOLANO
-
- Variable DIRECTOR:
- Tipo: object
- Valores únicos: 610
- Valores nulos: 2
- Valores duplicados: 425
- Valor más común: CARMEN ALCIRA GARĆ REYES
-
- Variable NIVEL:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 1035
- Valor más común: DIVERSIFICADO
-
- Variable SECTOR:
- Tipo: object
- Valores únicos: 4
- Valores nulos: 0
- Valores duplicados: 1032
- Valor más común: PRIVADO
-
- Variable AREA:
- Tipo: object
- Valores únicos: 2
- Valores nulos: 0
- Valores duplicados: 1034
- Valor más común: URBANA
-
- Variable STATUS:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 1035
- Valor más común: ABIERTA
-
- Variable MODALIDAD:
- Tipo: object
- Valores únicos: 2
- Valores nulos: 0
- Valores duplicados: 1034
- Valor más común: MONOLINGUE
-
- Variable JORNADA:
- Tipo: object
- Valores únicos: 5
- Valores nulos: 0
- Valores duplicados: 1031
- Valor más común: MATUTINA
-
- Variable PLAN:
- Tipo: object
- Valores únicos: 8
- Valores nulos: 0
- Valores duplicados: 1028
- Valor más común: DIARIO(REGULAR)
-
- Variable DEPARTAMENTAL:
- Tipo: object
- Valores únicos: 4
- Valores nulos: 0
- Valores duplicados: 1032
- Valor más común: GUATEMALA OCCIDENTE
-
-==================================================
-
---- Analizando el archivo: huehuetenango.csv ---
-
-ESTADÍSTICAS DETALLADAS:
- Filas iniciales: 295
- Variables iniciales: 18
-
- Variable CODIGO:
- Tipo: object
- Valores únicos: 295
- Valores nulos: 0
- Valores duplicados: 0
- Valor más común: 13-01-0065-46
-
- Variable Unnamed: 1:
- Tipo: float64
- Valores únicos: 0
- Valores nulos: 295
- Valores duplicados: 294
- Min: nan
- Max: nan
- Media: nan
-
- Variable DISTRITO:
- Tipo: object
- Valores únicos: 42
- Valores nulos: 0
- Valores duplicados: 253
- Valor más común: 13-004
-
- Variable DEPARTAMENTO:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 294
- Valor más común: HUEHUETENANGO
-
- Variable MUNICIPIO:
- Tipo: object
- Valores únicos: 30
- Valores nulos: 0
- Valores duplicados: 265
- Valor más común: HUEHUETENANGO
-
- Variable ESTABLECIMIENTO:
- Tipo: object
- Valores únicos: 191
- Valores nulos: 0
- Valores duplicados: 104
- Valor más común: INSTITUTO NACIONAL DE EDUCACIӎ DIVERSIFICADA
-
- Variable DIRECCION:
- Tipo: object
- Valores únicos: 170
- Valores nulos: 0
- Valores duplicados: 125
- Valor más común: CABECERA MUNICIPAL
-
- Variable TELEFONO:
- Tipo: int64
- Valores únicos: 196
- Valores nulos: 0
- Valores duplicados: 99
- Min: 30029953
- Max: 79345932
- Media: 55319023.69
-
- Variable SUPERVISOR:
- Tipo: object
- Valores únicos: 39
- Valores nulos: 0
- Valores duplicados: 256
- Valor más común: CLARA ARMIDA MORALES CASTILLO
-
- Variable DIRECTOR:
- Tipo: object
- Valores únicos: 196
- Valores nulos: 0
- Valores duplicados: 99
- Valor más común: ORACIO ALMENGOR MART͎EZ VILLATORO
-
- Variable NIVEL:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 294
- Valor más común: DIVERSIFICADO
-
- Variable SECTOR:
- Tipo: object
- Valores únicos: 3
- Valores nulos: 0
- Valores duplicados: 292
- Valor más común: PRIVADO
-
- Variable AREA:
- Tipo: object
- Valores únicos: 2
- Valores nulos: 0
- Valores duplicados: 293
- Valor más común: URBANA
-
- Variable STATUS:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 294
- Valor más común: ABIERTA
-
- Variable MODALIDAD:
- Tipo: object
- Valores únicos: 2
- Valores nulos: 0
- Valores duplicados: 293
- Valor más común: MONOLINGUE
-
- Variable JORNADA:
- Tipo: object
- Valores únicos: 4
- Valores nulos: 0
- Valores duplicados: 291
- Valor más común: VESPERTINA
-
- Variable PLAN:
- Tipo: object
- Valores únicos: 8
- Valores nulos: 0
- Valores duplicados: 287
- Valor más común: DIARIO(REGULAR)
-
- Variable DEPARTAMENTAL:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 294
- Valor más común: HUEHUETENANGO
-
-==================================================
-
---- Analizando el archivo: izabal.csv ---
-
-ESTADÍSTICAS DETALLADAS:
- Filas iniciales: 273
- Variables iniciales: 18
-
- Variable CODIGO:
- Tipo: object
- Valores únicos: 273
- Valores nulos: 0
- Valores duplicados: 0
- Valor más común: 18-01-0041-46
-
- Variable Unnamed: 1:
- Tipo: float64
- Valores únicos: 0
- Valores nulos: 273
- Valores duplicados: 272
- Min: nan
- Max: nan
- Media: nan
-
- Variable DISTRITO:
- Tipo: object
- Valores únicos: 19
- Valores nulos: 0
- Valores duplicados: 254
- Valor más común: 18-039
-
- Variable DEPARTAMENTO:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 272
- Valor más común: IZABAL
-
- Variable MUNICIPIO:
- Tipo: object
- Valores únicos: 5
- Valores nulos: 0
- Valores duplicados: 268
- Valor más común: MORALES
-
- Variable ESTABLECIMIENTO:
- Tipo: object
- Valores únicos: 158
- Valores nulos: 0
- Valores duplicados: 115
- Valor más común: INSTITUTO NACIONAL DE EDUCACION DIVERSIFICADA
-
- Variable DIRECCION:
- Tipo: object
- Valores únicos: 160
- Valores nulos: 0
- Valores duplicados: 113
- Valor más común: ALDEA PLAYITAS
-
- Variable TELEFONO:
- Tipo: object
- Valores únicos: 170
- Valores nulos: 0
- Valores duplicados: 103
- Valor más común: 53034233
-
- Variable SUPERVISOR:
- Tipo: object
- Valores únicos: 19
- Valores nulos: 0
- Valores duplicados: 254
- Valor más común: ELSA YADIRA MARTINEZ PEREZ
-
- Variable DIRECTOR:
- Tipo: object
- Valores únicos: 155
- Valores nulos: 0
- Valores duplicados: 118
- Valor más común: HɃTOR REYNALDO GӍEZ AGUILAR
-
- Variable NIVEL:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 272
- Valor más común: DIVERSIFICADO
-
- Variable SECTOR:
- Tipo: object
- Valores únicos: 4
- Valores nulos: 0
- Valores duplicados: 269
- Valor más común: PRIVADO
-
- Variable AREA:
- Tipo: object
- Valores únicos: 2
- Valores nulos: 0
- Valores duplicados: 271
- Valor más común: RURAL
-
- Variable STATUS:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 272
- Valor más común: ABIERTA
-
- Variable MODALIDAD:
- Tipo: object
- Valores únicos: 2
- Valores nulos: 0
- Valores duplicados: 271
- Valor más común: MONOLINGUE
-
- Variable JORNADA:
- Tipo: object
- Valores únicos: 5
- Valores nulos: 0
- Valores duplicados: 268
- Valor más común: DOBLE
-
- Variable PLAN:
- Tipo: object
- Valores únicos: 6
- Valores nulos: 0
- Valores duplicados: 267
- Valor más común: DIARIO(REGULAR)
-
- Variable DEPARTAMENTAL:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 272
- Valor más común: IZABAL
-
-==================================================
-
---- Analizando el archivo: jalapa.csv ---
-
-ESTADÍSTICAS DETALLADAS:
- Filas iniciales: 121
- Variables iniciales: 18
-
- Variable CODIGO:
- Tipo: object
- Valores únicos: 121
- Valores nulos: 0
- Valores duplicados: 0
- Valor más común: 21-01-0101-46
-
- Variable Unnamed: 1:
- Tipo: float64
- Valores únicos: 0
- Valores nulos: 121
- Valores duplicados: 120
- Min: nan
- Max: nan
- Media: nan
-
- Variable DISTRITO:
- Tipo: object
- Valores únicos: 14
- Valores nulos: 0
- Valores duplicados: 107
- Valor más común: 21-004
-
- Variable DEPARTAMENTO:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 120
- Valor más común: JALAPA
-
- Variable MUNICIPIO:
- Tipo: object
- Valores únicos: 7
- Valores nulos: 0
- Valores duplicados: 114
- Valor más común: JALAPA
-
- Variable ESTABLECIMIENTO:
- Tipo: object
- Valores únicos: 76
- Valores nulos: 0
- Valores duplicados: 45
- Valor más común: INSTITUTO NACIONAL DE EDUCACION DIVERSIFICADA
-
- Variable DIRECCION:
- Tipo: object
- Valores únicos: 88
- Valores nulos: 0
- Valores duplicados: 33
- Valor más común: BARRIO LA REFORMA
-
- Variable TELEFONO:
- Tipo: object
- Valores únicos: 82
- Valores nulos: 0
- Valores duplicados: 39
- Valor más común: 79220013
-
- Variable SUPERVISOR:
- Tipo: object
- Valores únicos: 14
- Valores nulos: 0
- Valores duplicados: 107
- Valor más común: VICTOR MANUEL PORTILLO RECINOS
-
- Variable DIRECTOR:
- Tipo: object
- Valores únicos: 75
- Valores nulos: 0
- Valores duplicados: 46
- Valor más común: AMILCAR PEREZ RAMIREZ
-
- Variable NIVEL:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 120
- Valor más común: DIVERSIFICADO
-
- Variable SECTOR:
- Tipo: object
- Valores únicos: 4
- Valores nulos: 0
- Valores duplicados: 117
- Valor más común: PRIVADO
-
- Variable AREA:
- Tipo: object
- Valores únicos: 2
- Valores nulos: 0
- Valores duplicados: 119
- Valor más común: URBANA
-
- Variable STATUS:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 120
- Valor más común: ABIERTA
-
- Variable MODALIDAD:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 120
- Valor más común: MONOLINGUE
-
- Variable JORNADA:
- Tipo: object
- Valores únicos: 5
- Valores nulos: 0
- Valores duplicados: 116
- Valor más común: VESPERTINA
-
- Variable PLAN:
- Tipo: object
- Valores únicos: 7
- Valores nulos: 0
- Valores duplicados: 114
- Valor más común: DIARIO(REGULAR)
-
- Variable DEPARTAMENTAL:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 120
- Valor más común: JALAPA
-
-==================================================
-
---- Analizando el archivo: jutiapa.csv ---
-
-ESTADÍSTICAS DETALLADAS:
- Filas iniciales: 296
- Variables iniciales: 18
-
- Variable CODIGO:
- Tipo: object
- Valores únicos: 296
- Valores nulos: 0
- Valores duplicados: 0
- Valor más común: 22-01-0014-46
-
- Variable Unnamed: 1:
- Tipo: float64
- Valores únicos: 0
- Valores nulos: 296
- Valores duplicados: 295
- Min: nan
- Max: nan
- Media: nan
-
- Variable DISTRITO:
- Tipo: object
- Valores únicos: 35
- Valores nulos: 0
- Valores duplicados: 261
- Valor más común: 22-003
-
- Variable DEPARTAMENTO:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 295
- Valor más común: JUTIAPA
-
- Variable MUNICIPIO:
- Tipo: object
- Valores únicos: 17
- Valores nulos: 0
- Valores duplicados: 279
- Valor más común: JUTIAPA
-
- Variable ESTABLECIMIENTO:
- Tipo: object
- Valores únicos: 183
- Valores nulos: 0
- Valores duplicados: 113
- Valor más común: INSTITUTO NACIONAL DE EDUCACION DIVERSIFICADA
-
- Variable DIRECCION:
- Tipo: object
- Valores únicos: 166
- Valores nulos: 1
- Valores duplicados: 129
- Valor más común: BARRIO EL CENTRO
-
- Variable TELEFONO:
- Tipo: float64
- Valores únicos: 175
- Valores nulos: 7
- Valores duplicados: 120
- Min: 7844007.0
- Max: 79344001.0
- Media: 60252823.11
-
- Variable SUPERVISOR:
- Tipo: object
- Valores únicos: 33
- Valores nulos: 0
- Valores duplicados: 263
- Valor más común: REMBERTO RECINOS SARCEя
-
- Variable DIRECTOR:
- Tipo: object
- Valores únicos: 167
- Valores nulos: 7
- Valores duplicados: 128
- Valor más común: RONI ERNESTO RECINOS ESTRADA
-
- Variable NIVEL:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 295
- Valor más común: DIVERSIFICADO
-
- Variable SECTOR:
- Tipo: object
- Valores únicos: 4
- Valores nulos: 0
- Valores duplicados: 292
- Valor más común: PRIVADO
-
- Variable AREA:
- Tipo: object
- Valores únicos: 2
- Valores nulos: 0
- Valores duplicados: 294
- Valor más común: URBANA
-
- Variable STATUS:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 295
- Valor más común: ABIERTA
-
- Variable MODALIDAD:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 295
- Valor más común: MONOLINGUE
-
- Variable JORNADA:
- Tipo: object
- Valores únicos: 5
- Valores nulos: 0
- Valores duplicados: 291
- Valor más común: DOBLE
-
- Variable PLAN:
- Tipo: object
- Valores únicos: 6
- Valores nulos: 0
- Valores duplicados: 290
- Valor más común: DIARIO(REGULAR)
-
- Variable DEPARTAMENTAL:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 295
- Valor más común: JUTIAPA
-
-==================================================
-
---- Analizando el archivo: peten.csv ---
-
-ESTADÍSTICAS DETALLADAS:
- Filas iniciales: 270
- Variables iniciales: 18
-
- Variable CODIGO:
- Tipo: object
- Valores únicos: 270
- Valores nulos: 0
- Valores duplicados: 0
- Valor más común: 17-01-0064-46
-
- Variable Unnamed: 1:
- Tipo: float64
- Valores únicos: 0
- Valores nulos: 270
- Valores duplicados: 269
- Min: nan
- Max: nan
- Media: nan
-
- Variable DISTRITO:
- Tipo: object
- Valores únicos: 31
- Valores nulos: 0
- Valores duplicados: 239
- Valor más común: 17-003
-
- Variable DEPARTAMENTO:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 269
- Valor más común: PETEN
-
- Variable MUNICIPIO:
- Tipo: object
- Valores únicos: 14
- Valores nulos: 0
- Valores duplicados: 256
- Valor más común: LA LIBERTAD
-
- Variable ESTABLECIMIENTO:
- Tipo: object
- Valores únicos: 198
- Valores nulos: 0
- Valores duplicados: 72
- Valor más común: INSTITUTO NACIONAL DE EDUCACION DIVERSIFICADA
-
- Variable DIRECCION:
- Tipo: object
- Valores únicos: 170
- Valores nulos: 0
- Valores duplicados: 100
- Valor más común: BARRIO EL CENTRO
-
- Variable TELEFONO:
- Tipo: object
- Valores únicos: 183
- Valores nulos: 2
- Valores duplicados: 86
- Valor más común: 79263476
-
- Variable SUPERVISOR:
- Tipo: object
- Valores únicos: 30
- Valores nulos: 0
- Valores duplicados: 240
- Valor más común: DEYLIN ANTONIO ALVAREZ ALDANA
-
- Variable DIRECTOR:
- Tipo: object
- Valores únicos: 165
- Valores nulos: 0
- Valores duplicados: 105
- Valor más común: ANY YAMILETH FLORES LEIVA
-
- Variable NIVEL:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 269
- Valor más común: DIVERSIFICADO
-
- Variable SECTOR:
- Tipo: object
- Valores únicos: 4
- Valores nulos: 0
- Valores duplicados: 266
- Valor más común: PRIVADO
-
- Variable AREA:
- Tipo: object
- Valores únicos: 2
- Valores nulos: 0
- Valores duplicados: 268
- Valor más común: URBANA
-
- Variable STATUS:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 269
- Valor más común: ABIERTA
-
- Variable MODALIDAD:
- Tipo: object
- Valores únicos: 2
- Valores nulos: 0
- Valores duplicados: 268
- Valor más común: MONOLINGUE
-
- Variable JORNADA:
- Tipo: object
- Valores únicos: 6
- Valores nulos: 0
- Valores duplicados: 264
- Valor más común: VESPERTINA
-
- Variable PLAN:
- Tipo: object
- Valores únicos: 6
- Valores nulos: 0
- Valores duplicados: 264
- Valor más común: DIARIO(REGULAR)
-
- Variable DEPARTAMENTAL:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 269
- Valor más común: PETEN
-
-==================================================
-
---- Analizando el archivo: quetzaltenango.csv ---
-
-ESTADÍSTICAS DETALLADAS:
- Filas iniciales: 365
- Variables iniciales: 18
-
- Variable CODIGO:
- Tipo: object
- Valores únicos: 365
- Valores nulos: 0
- Valores duplicados: 0
- Valor más común: 09-01-0098-46
-
- Variable Unnamed: 1:
- Tipo: float64
- Valores únicos: 0
- Valores nulos: 365
- Valores duplicados: 364
- Min: nan
- Max: nan
- Media: nan
-
- Variable DISTRITO:
- Tipo: object
- Valores únicos: 33
- Valores nulos: 0
- Valores duplicados: 332
- Valor más común: 09-006
-
- Variable DEPARTAMENTO:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 364
- Valor más común: QUETZALTENANGO
-
- Variable MUNICIPIO:
- Tipo: object
- Valores únicos: 22
- Valores nulos: 0
- Valores duplicados: 343
- Valor más común: QUETZALTENANGO
-
- Variable ESTABLECIMIENTO:
- Tipo: object
- Valores únicos: 235
- Valores nulos: 0
- Valores duplicados: 130
- Valor más común: INSTITUTO NACIONAL DE EDUCACION DIVERSIFICADA
-
- Variable DIRECCION:
- Tipo: object
- Valores únicos: 278
- Valores nulos: 0
- Valores duplicados: 87
- Valor más común: 21 AVENIDA 3-61 ZONA 3
-
- Variable TELEFONO:
- Tipo: int64
- Valores únicos: 243
- Valores nulos: 0
- Valores duplicados: 122
- Min: 30137593
- Max: 79268245
- Media: 63558881.23
-
- Variable SUPERVISOR:
- Tipo: object
- Valores únicos: 33
- Valores nulos: 0
- Valores duplicados: 332
- Valor más común: PEDRO GERӎIMO SARAT CHAJ
-
- Variable DIRECTOR:
- Tipo: object
- Valores únicos: 224
- Valores nulos: 1
- Valores duplicados: 140
- Valor más común: EDILSAR ROCAEL VAZQUEZ PEREZ
-
- Variable NIVEL:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 364
- Valor más común: DIVERSIFICADO
-
- Variable SECTOR:
- Tipo: object
- Valores únicos: 4
- Valores nulos: 0
- Valores duplicados: 361
- Valor más común: PRIVADO
-
- Variable AREA:
- Tipo: object
- Valores únicos: 2
- Valores nulos: 0
- Valores duplicados: 363
- Valor más común: URBANA
-
- Variable STATUS:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 364
- Valor más común: ABIERTA
-
- Variable MODALIDAD:
- Tipo: object
- Valores únicos: 2
- Valores nulos: 0
- Valores duplicados: 363
- Valor más común: MONOLINGUE
-
- Variable JORNADA:
- Tipo: object
- Valores únicos: 5
- Valores nulos: 0
- Valores duplicados: 360
- Valor más común: VESPERTINA
-
- Variable PLAN:
- Tipo: object
- Valores únicos: 7
- Valores nulos: 0
- Valores duplicados: 358
- Valor más común: DIARIO(REGULAR)
-
- Variable DEPARTAMENTAL:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 364
- Valor más común: QUETZALTENANGO
-
-==================================================
-
---- Analizando el archivo: quiche.csv ---
-
-ESTADÍSTICAS DETALLADAS:
- Filas iniciales: 184
- Variables iniciales: 18
-
- Variable CODIGO:
- Tipo: object
- Valores únicos: 184
- Valores nulos: 0
- Valores duplicados: 0
- Valor más común: 14-01-0077-46
-
- Variable Unnamed: 1:
- Tipo: float64
- Valores únicos: 0
- Valores nulos: 184
- Valores duplicados: 183
- Min: nan
- Max: nan
- Media: nan
-
- Variable DISTRITO:
- Tipo: object
- Valores únicos: 34
- Valores nulos: 0
- Valores duplicados: 150
- Valor más común: 14-036
-
- Variable DEPARTAMENTO:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 183
- Valor más común: QUICHE
-
- Variable MUNICIPIO:
- Tipo: object
- Valores únicos: 20
- Valores nulos: 0
- Valores duplicados: 164
- Valor más común: SANTA CRUZ DEL QUICHE
-
- Variable ESTABLECIMIENTO:
- Tipo: object
- Valores únicos: 135
- Valores nulos: 0
- Valores duplicados: 49
- Valor más común: INSTITUTO NACIONAL DE EDUCACION DIVERSIFICADA
-
- Variable DIRECCION:
- Tipo: object
- Valores únicos: 140
- Valores nulos: 0
- Valores duplicados: 44
- Valor más común: ZONA 1 PLAYA GRANDE
-
- Variable TELEFONO:
- Tipo: int64
- Valores únicos: 138
- Valores nulos: 0
- Valores duplicados: 46
- Min: 0
- Max: 79638520
- Media: 54339088.30
-
- Variable SUPERVISOR:
- Tipo: object
- Valores únicos: 34
- Valores nulos: 0
- Valores duplicados: 150
- Valor más común: GONZALO VENTURA LUX
-
- Variable DIRECTOR:
- Tipo: object
- Valores únicos: 139
- Valores nulos: 1
- Valores duplicados: 44
- Valor más común: FEDERICO HERNNDEZ ZAPETA
-
- Variable NIVEL:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 183
- Valor más común: DIVERSIFICADO
-
- Variable SECTOR:
- Tipo: object
- Valores únicos: 4
- Valores nulos: 0
- Valores duplicados: 180
- Valor más común: PRIVADO
-
- Variable AREA:
- Tipo: object
- Valores únicos: 2
- Valores nulos: 0
- Valores duplicados: 182
- Valor más común: URBANA
-
- Variable STATUS:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 183
- Valor más común: ABIERTA
-
- Variable MODALIDAD:
- Tipo: object
- Valores únicos: 2
- Valores nulos: 0
- Valores duplicados: 182
- Valor más común: MONOLINGUE
-
- Variable JORNADA:
- Tipo: object
- Valores únicos: 6
- Valores nulos: 0
- Valores duplicados: 178
- Valor más común: VESPERTINA
-
- Variable PLAN:
- Tipo: object
- Valores únicos: 7
- Valores nulos: 0
- Valores duplicados: 177
- Valor más común: DIARIO(REGULAR)
-
- Variable DEPARTAMENTAL:
- Tipo: object
- Valores únicos: 2
- Valores nulos: 0
- Valores duplicados: 182
- Valor más común: QUICHE
-
-==================================================
-
---- Analizando el archivo: retalhuleu.csv ---
-
-ESTADÍSTICAS DETALLADAS:
- Filas iniciales: 272
- Variables iniciales: 18
-
- Variable CODIGO:
- Tipo: object
- Valores únicos: 272
- Valores nulos: 0
- Valores duplicados: 0
- Valor más común: 11-01-0027-46
-
- Variable Unnamed: 1:
- Tipo: float64
- Valores únicos: 0
- Valores nulos: 272
- Valores duplicados: 271
- Min: nan
- Max: nan
- Media: nan
-
- Variable DISTRITO:
- Tipo: object
- Valores únicos: 8
- Valores nulos: 0
- Valores duplicados: 264
- Valor más común: 11-017
-
- Variable DEPARTAMENTO:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 271
- Valor más común: RETALHULEU
-
- Variable MUNICIPIO:
- Tipo: object
- Valores únicos: 9
- Valores nulos: 0
- Valores duplicados: 263
- Valor más común: RETALHULEU
-
- Variable ESTABLECIMIENTO:
- Tipo: object
- Valores únicos: 162
- Valores nulos: 0
- Valores duplicados: 110
- Valor más común: INSTITUTO NACIONAL DE EDUCACION DIVERSIFICADA
-
- Variable DIRECCION:
- Tipo: object
- Valores únicos: 195
- Valores nulos: 0
- Valores duplicados: 77
- Valor más común: COLONIA MORN
-
- Variable TELEFONO:
- Tipo: float64
- Valores únicos: 168
- Valores nulos: 8
- Valores duplicados: 103
- Min: 30071440.0
- Max: 79385209.0
- Media: 58663960.67
-
- Variable SUPERVISOR:
- Tipo: object
- Valores únicos: 7
- Valores nulos: 0
- Valores duplicados: 265
- Valor más común: MIGUEL ANGEL ARMAS ROCHA
-
- Variable DIRECTOR:
- Tipo: object
- Valores únicos: 153
- Valores nulos: 8
- Valores duplicados: 118
- Valor más común: MELVIN RAFAEL REYES LӐEZ
-
- Variable NIVEL:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 271
- Valor más común: DIVERSIFICADO
-
- Variable SECTOR:
- Tipo: object
- Valores únicos: 4
- Valores nulos: 0
- Valores duplicados: 268
- Valor más común: PRIVADO
-
- Variable AREA:
- Tipo: object
- Valores únicos: 2
- Valores nulos: 0
- Valores duplicados: 270
- Valor más común: URBANA
-
- Variable STATUS:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 271
- Valor más común: ABIERTA
-
- Variable MODALIDAD:
- Tipo: object
- Valores únicos: 2
- Valores nulos: 0
- Valores duplicados: 270
- Valor más común: MONOLINGUE
-
- Variable JORNADA:
- Tipo: object
- Valores únicos: 5
- Valores nulos: 0
- Valores duplicados: 267
- Valor más común: DOBLE
-
- Variable PLAN:
- Tipo: object
- Valores únicos: 7
- Valores nulos: 0
- Valores duplicados: 265
- Valor más común: DIARIO(REGULAR)
-
- Variable DEPARTAMENTAL:
- Tipo: object
- Valores únicos: 1
- Valores nulos: 0
- Valores duplicados: 271
- Valor más común: RETALHULEU
-
-==================================================
-
 --- Analizando el archivo: sacatepequez.csv ---
 
 ESTADÍSTICAS DETALLADAS:
@@ -2326,6 +134,144 @@ ESTADÍSTICAS DETALLADAS:
  Valores nulos: 0
  Valores duplicados: 205
  Valor más común: SACATEPEQUEZ
+
+==================================================
+
+--- Analizando el archivo: suchitepequez.csv ---
+
+ESTADÍSTICAS DETALLADAS:
+ Filas iniciales: 296
+ Variables iniciales: 18
+
+ Variable CODIGO:
+ Tipo: object
+ Valores únicos: 296
+ Valores nulos: 0
+ Valores duplicados: 0
+ Valor más común: 10-01-0078-46
+
+ Variable Unnamed: 1:
+ Tipo: float64
+ Valores únicos: 0
+ Valores nulos: 296
+ Valores duplicados: 295
+ Min: nan
+ Max: nan
+ Media: nan
+
+ Variable DISTRITO:
+ Tipo: object
+ Valores únicos: 22
+ Valores nulos: 0
+ Valores duplicados: 274
+ Valor más común: 10-019
+
+ Variable DEPARTAMENTO:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 295
+ Valor más común: SUCHITEPEQUEZ
+
+ Variable MUNICIPIO:
+ Tipo: object
+ Valores únicos: 19
+ Valores nulos: 0
+ Valores duplicados: 277
+ Valor más común: MAZATENANGO
+
+ Variable ESTABLECIMIENTO:
+ Tipo: object
+ Valores únicos: 147
+ Valores nulos: 0
+ Valores duplicados: 149
+ Valor más común: INSTITUTO DE COMPUTACIӎ INFORMTICA
+
+ Variable DIRECCION:
+ Tipo: object
+ Valores únicos: 157
+ Valores nulos: 0
+ Valores duplicados: 139
+ Valor más común: 6A. AVENIDA 2-21 ZONA 1
+
+ Variable TELEFONO:
+ Tipo: float64
+ Valores únicos: 164
+ Valores nulos: 3
+ Valores duplicados: 131
+ Min: 4140069.0
+ Max: 4281099156375310.5
+ Media: 43351212927618.57
+
+ Variable SUPERVISOR:
+ Tipo: object
+ Valores únicos: 22
+ Valores nulos: 0
+ Valores duplicados: 274
+ Valor más común: REYNA DEL ROSARIO CHAVEZ BARROW DE PACHECO
+
+ Variable DIRECTOR:
+ Tipo: object
+ Valores únicos: 141
+ Valores nulos: 0
+ Valores duplicados: 155
+ Valor más común: CLAUDIA NOHEMI GUZMN MART͎EZ
+
+ Variable NIVEL:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 295
+ Valor más común: DIVERSIFICADO
+
+ Variable SECTOR:
+ Tipo: object
+ Valores únicos: 4
+ Valores nulos: 0
+ Valores duplicados: 292
+ Valor más común: PRIVADO
+
+ Variable AREA:
+ Tipo: object
+ Valores únicos: 2
+ Valores nulos: 0
+ Valores duplicados: 294
+ Valor más común: URBANA
+
+ Variable STATUS:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 295
+ Valor más común: ABIERTA
+
+ Variable MODALIDAD:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 295
+ Valor más común: MONOLINGUE
+
+ Variable JORNADA:
+ Tipo: object
+ Valores únicos: 5
+ Valores nulos: 0
+ Valores duplicados: 291
+ Valor más común: DOBLE
+
+ Variable PLAN:
+ Tipo: object
+ Valores únicos: 6
+ Valores nulos: 0
+ Valores duplicados: 290
+ Valor más común: DIARIO(REGULAR)
+
+ Variable DEPARTAMENTAL:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 295
+ Valor más común: SUCHITEPEQUEZ
 
 ==================================================
 
@@ -2605,6 +551,688 @@ ESTADÍSTICAS DETALLADAS:
 
 ==================================================
 
+--- Analizando el archivo: baja_verapaz.csv ---
+
+ESTADÍSTICAS DETALLADAS:
+ Filas iniciales: 94
+ Variables iniciales: 18
+
+ Variable CODIGO:
+ Tipo: object
+ Valores únicos: 94
+ Valores nulos: 0
+ Valores duplicados: 0
+ Valor más común: 15-01-0050-46
+
+ Variable Unnamed: 1:
+ Tipo: float64
+ Valores únicos: 0
+ Valores nulos: 94
+ Valores duplicados: 93
+ Min: nan
+ Max: nan
+ Media: nan
+
+ Variable DISTRITO:
+ Tipo: object
+ Valores únicos: 10
+ Valores nulos: 0
+ Valores duplicados: 84
+ Valor más común: 15-001
+
+ Variable DEPARTAMENTO:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 93
+ Valor más común: BAJA VERAPAZ
+
+ Variable MUNICIPIO:
+ Tipo: object
+ Valores únicos: 8
+ Valores nulos: 0
+ Valores duplicados: 86
+ Valor más común: SALAMA
+
+ Variable ESTABLECIMIENTO:
+ Tipo: object
+ Valores únicos: 43
+ Valores nulos: 0
+ Valores duplicados: 51
+ Valor más común: INSTITUTO NACIONAL DE EDUCACION DIVERSIFICADA
+
+ Variable DIRECCION:
+ Tipo: object
+ Valores únicos: 65
+ Valores nulos: 0
+ Valores duplicados: 29
+ Valor más común: BARRIO MAGDALENA
+
+ Variable TELEFONO:
+ Tipo: object
+ Valores únicos: 68
+ Valores nulos: 0
+ Valores duplicados: 26
+ Valor más común: 54887718
+
+ Variable SUPERVISOR:
+ Tipo: object
+ Valores únicos: 10
+ Valores nulos: 0
+ Valores duplicados: 84
+ Valor más común: IRIS QUETZAL͠ORDOхZ TURCIOS
+
+ Variable DIRECTOR:
+ Tipo: object
+ Valores únicos: 62
+ Valores nulos: 0
+ Valores duplicados: 32
+ Valor más común: ALONDRA VANESSA VALEY IXPAT|/td>
+
+ Variable NIVEL:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 93
+ Valor más común: DIVERSIFICADO
+
+ Variable SECTOR:
+ Tipo: object
+ Valores únicos: 3
+ Valores nulos: 0
+ Valores duplicados: 91
+ Valor más común: PRIVADO
+
+ Variable AREA:
+ Tipo: object
+ Valores únicos: 2
+ Valores nulos: 0
+ Valores duplicados: 92
+ Valor más común: URBANA
+
+ Variable STATUS:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 93
+ Valor más común: ABIERTA
+
+ Variable MODALIDAD:
+ Tipo: object
+ Valores únicos: 2
+ Valores nulos: 0
+ Valores duplicados: 92
+ Valor más común: MONOLINGUE
+
+ Variable JORNADA:
+ Tipo: object
+ Valores únicos: 5
+ Valores nulos: 0
+ Valores duplicados: 89
+ Valor más común: VESPERTINA
+
+ Variable PLAN:
+ Tipo: object
+ Valores únicos: 7
+ Valores nulos: 0
+ Valores duplicados: 87
+ Valor más común: DIARIO(REGULAR)
+
+ Variable DEPARTAMENTAL:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 93
+ Valor más común: BAJA VERAPAZ
+
+==================================================
+
+--- Analizando el archivo: peten.csv ---
+
+ESTADÍSTICAS DETALLADAS:
+ Filas iniciales: 270
+ Variables iniciales: 18
+
+ Variable CODIGO:
+ Tipo: object
+ Valores únicos: 270
+ Valores nulos: 0
+ Valores duplicados: 0
+ Valor más común: 17-01-0064-46
+
+ Variable Unnamed: 1:
+ Tipo: float64
+ Valores únicos: 0
+ Valores nulos: 270
+ Valores duplicados: 269
+ Min: nan
+ Max: nan
+ Media: nan
+
+ Variable DISTRITO:
+ Tipo: object
+ Valores únicos: 31
+ Valores nulos: 0
+ Valores duplicados: 239
+ Valor más común: 17-003
+
+ Variable DEPARTAMENTO:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 269
+ Valor más común: PETEN
+
+ Variable MUNICIPIO:
+ Tipo: object
+ Valores únicos: 14
+ Valores nulos: 0
+ Valores duplicados: 256
+ Valor más común: LA LIBERTAD
+
+ Variable ESTABLECIMIENTO:
+ Tipo: object
+ Valores únicos: 198
+ Valores nulos: 0
+ Valores duplicados: 72
+ Valor más común: INSTITUTO NACIONAL DE EDUCACION DIVERSIFICADA
+
+ Variable DIRECCION:
+ Tipo: object
+ Valores únicos: 170
+ Valores nulos: 0
+ Valores duplicados: 100
+ Valor más común: BARRIO EL CENTRO
+
+ Variable TELEFONO:
+ Tipo: object
+ Valores únicos: 183
+ Valores nulos: 2
+ Valores duplicados: 86
+ Valor más común: 79263476
+
+ Variable SUPERVISOR:
+ Tipo: object
+ Valores únicos: 30
+ Valores nulos: 0
+ Valores duplicados: 240
+ Valor más común: DEYLIN ANTONIO ALVAREZ ALDANA
+
+ Variable DIRECTOR:
+ Tipo: object
+ Valores únicos: 165
+ Valores nulos: 0
+ Valores duplicados: 105
+ Valor más común: ANY YAMILETH FLORES LEIVA
+
+ Variable NIVEL:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 269
+ Valor más común: DIVERSIFICADO
+
+ Variable SECTOR:
+ Tipo: object
+ Valores únicos: 4
+ Valores nulos: 0
+ Valores duplicados: 266
+ Valor más común: PRIVADO
+
+ Variable AREA:
+ Tipo: object
+ Valores únicos: 2
+ Valores nulos: 0
+ Valores duplicados: 268
+ Valor más común: URBANA
+
+ Variable STATUS:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 269
+ Valor más común: ABIERTA
+
+ Variable MODALIDAD:
+ Tipo: object
+ Valores únicos: 2
+ Valores nulos: 0
+ Valores duplicados: 268
+ Valor más común: MONOLINGUE
+
+ Variable JORNADA:
+ Tipo: object
+ Valores únicos: 6
+ Valores nulos: 0
+ Valores duplicados: 264
+ Valor más común: VESPERTINA
+
+ Variable PLAN:
+ Tipo: object
+ Valores únicos: 6
+ Valores nulos: 0
+ Valores duplicados: 264
+ Valor más común: DIARIO(REGULAR)
+
+ Variable DEPARTAMENTAL:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 269
+ Valor más común: PETEN
+
+==================================================
+
+--- Analizando el archivo: alta_verapaz.csv ---
+
+ESTADÍSTICAS DETALLADAS:
+ Filas iniciales: 294
+ Variables iniciales: 18
+
+ Variable CODIGO:
+ Tipo: object
+ Valores únicos: 294
+ Valores nulos: 0
+ Valores duplicados: 0
+ Valor más común: 16-01-0138-46
+
+ Variable Unnamed: 1:
+ Tipo: float64
+ Valores únicos: 0
+ Valores nulos: 294
+ Valores duplicados: 293
+ Min: nan
+ Max: nan
+ Media: nan
+
+ Variable DISTRITO:
+ Tipo: object
+ Valores únicos: 40
+ Valores nulos: 0
+ Valores duplicados: 254
+ Valor más común: 16-031
+
+ Variable DEPARTAMENTO:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 293
+ Valor más común: ALTA VERAPAZ
+
+ Variable MUNICIPIO:
+ Tipo: object
+ Valores únicos: 17
+ Valores nulos: 0
+ Valores duplicados: 277
+ Valor más común: COBAN
+
+ Variable ESTABLECIMIENTO:
+ Tipo: object
+ Valores únicos: 149
+ Valores nulos: 0
+ Valores duplicados: 145
+ Valor más común: INSTITUTO NACIONAL DE EDUCACION DIVERSIFICADA
+
+ Variable DIRECCION:
+ Tipo: object
+ Valores únicos: 209
+ Valores nulos: 0
+ Valores duplicados: 85
+ Valor más común: BARRIO EL CENTRO
+
+ Variable TELEFONO:
+ Tipo: object
+ Valores únicos: 202
+ Valores nulos: 6
+ Valores duplicados: 91
+ Valor más común: 45353648
+
+ Variable SUPERVISOR:
+ Tipo: object
+ Valores únicos: 39
+ Valores nulos: 0
+ Valores duplicados: 255
+ Valor más común: PATRICIO NAJARRO ASENCIO
+
+ Variable DIRECTOR:
+ Tipo: object
+ Valores únicos: 183
+ Valores nulos: 0
+ Valores duplicados: 111
+ Valor más común: JUAN RAX
+
+ Variable NIVEL:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 293
+ Valor más común: DIVERSIFICADO
+
+ Variable SECTOR:
+ Tipo: object
+ Valores únicos: 4
+ Valores nulos: 0
+ Valores duplicados: 290
+ Valor más común: PRIVADO
+
+ Variable AREA:
+ Tipo: object
+ Valores únicos: 2
+ Valores nulos: 0
+ Valores duplicados: 292
+ Valor más común: URBANA
+
+ Variable STATUS:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 293
+ Valor más común: ABIERTA
+
+ Variable MODALIDAD:
+ Tipo: object
+ Valores únicos: 2
+ Valores nulos: 0
+ Valores duplicados: 292
+ Valor más común: MONOLINGUE
+
+ Variable JORNADA:
+ Tipo: object
+ Valores únicos: 5
+ Valores nulos: 0
+ Valores duplicados: 289
+ Valor más común: VESPERTINA
+
+ Variable PLAN:
+ Tipo: object
+ Valores únicos: 7
+ Valores nulos: 0
+ Valores duplicados: 287
+ Valor más común: DIARIO(REGULAR)
+
+ Variable DEPARTAMENTAL:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 293
+ Valor más común: ALTA VERAPAZ
+
+==================================================
+
+--- Analizando el archivo: chiquimula.csv ---
+
+ESTADÍSTICAS DETALLADAS:
+ Filas iniciales: 136
+ Variables iniciales: 18
+
+ Variable CODIGO:
+ Tipo: object
+ Valores únicos: 136
+ Valores nulos: 0
+ Valores duplicados: 0
+ Valor más común: 20-01-0024-46
+
+ Variable Unnamed: 1:
+ Tipo: float64
+ Valores únicos: 0
+ Valores nulos: 136
+ Valores duplicados: 135
+ Min: nan
+ Max: nan
+ Media: nan
+
+ Variable DISTRITO:
+ Tipo: object
+ Valores únicos: 23
+ Valores nulos: 0
+ Valores duplicados: 113
+ Valor más común: 20-030
+
+ Variable DEPARTAMENTO:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 135
+ Valor más común: CHIQUIMULA
+
+ Variable MUNICIPIO:
+ Tipo: object
+ Valores únicos: 11
+ Valores nulos: 0
+ Valores duplicados: 125
+ Valor más común: CHIQUIMULA
+
+ Variable ESTABLECIMIENTO:
+ Tipo: object
+ Valores únicos: 85
+ Valores nulos: 0
+ Valores duplicados: 51
+ Valor más común: CENTRO DE EDUCACIӎ EXTRAESCOLAR -CEEX- FUNCAFE
+
+ Variable DIRECCION:
+ Tipo: object
+ Valores únicos: 98
+ Valores nulos: 0
+ Valores duplicados: 38
+ Valor más común: BARRIO SAN LORENZO
+
+ Variable TELEFONO:
+ Tipo: float64
+ Valores únicos: 89
+ Valores nulos: 7
+ Valores duplicados: 46
+ Min: 30194721.0
+ Max: 79465751.0
+ Media: 59003591.95
+
+ Variable SUPERVISOR:
+ Tipo: object
+ Valores únicos: 21
+ Valores nulos: 0
+ Valores duplicados: 115
+ Valor más común: SILVIA MARILENA BUEZO MARTINEZ
+
+ Variable DIRECTOR:
+ Tipo: object
+ Valores únicos: 95
+ Valores nulos: 2
+ Valores duplicados: 40
+ Valor más común: ELOINA MARGOTH SANDOVAL VILLAFUERTE
+
+ Variable NIVEL:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 135
+ Valor más común: DIVERSIFICADO
+
+ Variable SECTOR:
+ Tipo: object
+ Valores únicos: 4
+ Valores nulos: 0
+ Valores duplicados: 132
+ Valor más común: PRIVADO
+
+ Variable AREA:
+ Tipo: object
+ Valores únicos: 2
+ Valores nulos: 0
+ Valores duplicados: 134
+ Valor más común: URBANA
+
+ Variable STATUS:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 135
+ Valor más común: ABIERTA
+
+ Variable MODALIDAD:
+ Tipo: object
+ Valores únicos: 2
+ Valores nulos: 0
+ Valores duplicados: 134
+ Valor más común: MONOLINGUE
+
+ Variable JORNADA:
+ Tipo: object
+ Valores únicos: 6
+ Valores nulos: 0
+ Valores duplicados: 130
+ Valor más común: DOBLE
+
+ Variable PLAN:
+ Tipo: object
+ Valores únicos: 5
+ Valores nulos: 0
+ Valores duplicados: 131
+ Valor más común: DIARIO(REGULAR)
+
+ Variable DEPARTAMENTAL:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 135
+ Valor más común: CHIQUIMULA
+
+==================================================
+
+--- Analizando el archivo: izabal.csv ---
+
+ESTADÍSTICAS DETALLADAS:
+ Filas iniciales: 273
+ Variables iniciales: 18
+
+ Variable CODIGO:
+ Tipo: object
+ Valores únicos: 273
+ Valores nulos: 0
+ Valores duplicados: 0
+ Valor más común: 18-01-0041-46
+
+ Variable Unnamed: 1:
+ Tipo: float64
+ Valores únicos: 0
+ Valores nulos: 273
+ Valores duplicados: 272
+ Min: nan
+ Max: nan
+ Media: nan
+
+ Variable DISTRITO:
+ Tipo: object
+ Valores únicos: 19
+ Valores nulos: 0
+ Valores duplicados: 254
+ Valor más común: 18-039
+
+ Variable DEPARTAMENTO:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 272
+ Valor más común: IZABAL
+
+ Variable MUNICIPIO:
+ Tipo: object
+ Valores únicos: 5
+ Valores nulos: 0
+ Valores duplicados: 268
+ Valor más común: MORALES
+
+ Variable ESTABLECIMIENTO:
+ Tipo: object
+ Valores únicos: 158
+ Valores nulos: 0
+ Valores duplicados: 115
+ Valor más común: INSTITUTO NACIONAL DE EDUCACION DIVERSIFICADA
+
+ Variable DIRECCION:
+ Tipo: object
+ Valores únicos: 160
+ Valores nulos: 0
+ Valores duplicados: 113
+ Valor más común: ALDEA PLAYITAS
+
+ Variable TELEFONO:
+ Tipo: object
+ Valores únicos: 170
+ Valores nulos: 0
+ Valores duplicados: 103
+ Valor más común: 53034233
+
+ Variable SUPERVISOR:
+ Tipo: object
+ Valores únicos: 19
+ Valores nulos: 0
+ Valores duplicados: 254
+ Valor más común: ELSA YADIRA MARTINEZ PEREZ
+
+ Variable DIRECTOR:
+ Tipo: object
+ Valores únicos: 155
+ Valores nulos: 0
+ Valores duplicados: 118
+ Valor más común: HɃTOR REYNALDO GӍEZ AGUILAR
+
+ Variable NIVEL:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 272
+ Valor más común: DIVERSIFICADO
+
+ Variable SECTOR:
+ Tipo: object
+ Valores únicos: 4
+ Valores nulos: 0
+ Valores duplicados: 269
+ Valor más común: PRIVADO
+
+ Variable AREA:
+ Tipo: object
+ Valores únicos: 2
+ Valores nulos: 0
+ Valores duplicados: 271
+ Valor más común: RURAL
+
+ Variable STATUS:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 272
+ Valor más común: ABIERTA
+
+ Variable MODALIDAD:
+ Tipo: object
+ Valores únicos: 2
+ Valores nulos: 0
+ Valores duplicados: 271
+ Valor más común: MONOLINGUE
+
+ Variable JORNADA:
+ Tipo: object
+ Valores únicos: 5
+ Valores nulos: 0
+ Valores duplicados: 268
+ Valor más común: DOBLE
+
+ Variable PLAN:
+ Tipo: object
+ Valores únicos: 6
+ Valores nulos: 0
+ Valores duplicados: 267
+ Valor más común: DIARIO(REGULAR)
+
+ Variable DEPARTAMENTAL:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 272
+ Valor más común: IZABAL
+
+==================================================
+
 --- Analizando el archivo: solola.csv ---
 
 ESTADÍSTICAS DETALLADAS:
@@ -2743,96 +1371,1332 @@ ESTADÍSTICAS DETALLADAS:
 
 ==================================================
 
---- Analizando el archivo: suchitepequez.csv ---
+--- Analizando el archivo: retalhuleu.csv ---
 
 ESTADÍSTICAS DETALLADAS:
- Filas iniciales: 296
+ Filas iniciales: 272
  Variables iniciales: 18
 
  Variable CODIGO:
  Tipo: object
- Valores únicos: 296
+ Valores únicos: 272
  Valores nulos: 0
  Valores duplicados: 0
- Valor más común: 10-01-0078-46
+ Valor más común: 11-01-0027-46
 
  Variable Unnamed: 1:
  Tipo: float64
  Valores únicos: 0
- Valores nulos: 296
- Valores duplicados: 295
+ Valores nulos: 272
+ Valores duplicados: 271
  Min: nan
  Max: nan
  Media: nan
 
  Variable DISTRITO:
  Tipo: object
- Valores únicos: 22
+ Valores únicos: 8
  Valores nulos: 0
- Valores duplicados: 274
- Valor más común: 10-019
+ Valores duplicados: 264
+ Valor más común: 11-017
 
  Variable DEPARTAMENTO:
  Tipo: object
  Valores únicos: 1
  Valores nulos: 0
- Valores duplicados: 295
- Valor más común: SUCHITEPEQUEZ
+ Valores duplicados: 271
+ Valor más común: RETALHULEU
 
  Variable MUNICIPIO:
  Tipo: object
- Valores únicos: 19
+ Valores únicos: 9
  Valores nulos: 0
- Valores duplicados: 277
- Valor más común: MAZATENANGO
+ Valores duplicados: 263
+ Valor más común: RETALHULEU
 
  Variable ESTABLECIMIENTO:
  Tipo: object
- Valores únicos: 147
+ Valores únicos: 162
  Valores nulos: 0
- Valores duplicados: 149
- Valor más común: INSTITUTO DE COMPUTACIӎ INFORMTICA
+ Valores duplicados: 110
+ Valor más común: INSTITUTO NACIONAL DE EDUCACION DIVERSIFICADA
 
  Variable DIRECCION:
  Tipo: object
- Valores únicos: 157
+ Valores únicos: 195
  Valores nulos: 0
- Valores duplicados: 139
- Valor más común: 6A. AVENIDA 2-21 ZONA 1
+ Valores duplicados: 77
+ Valor más común: COLONIA MORN
 
  Variable TELEFONO:
  Tipo: float64
- Valores únicos: 164
- Valores nulos: 3
- Valores duplicados: 131
- Min: 4140069.0
- Max: 4281099156375310.5
- Media: 43351212927618.57
+ Valores únicos: 168
+ Valores nulos: 8
+ Valores duplicados: 103
+ Min: 30071440.0
+ Max: 79385209.0
+ Media: 58663960.67
 
  Variable SUPERVISOR:
  Tipo: object
- Valores únicos: 22
+ Valores únicos: 7
  Valores nulos: 0
- Valores duplicados: 274
- Valor más común: REYNA DEL ROSARIO CHAVEZ BARROW DE PACHECO
+ Valores duplicados: 265
+ Valor más común: MIGUEL ANGEL ARMAS ROCHA
 
  Variable DIRECTOR:
  Tipo: object
- Valores únicos: 141
- Valores nulos: 0
- Valores duplicados: 155
- Valor más común: CLAUDIA NOHEMI GUZMN MART͎EZ
+ Valores únicos: 153
+ Valores nulos: 8
+ Valores duplicados: 118
+ Valor más común: MELVIN RAFAEL REYES LӐEZ
 
  Variable NIVEL:
  Tipo: object
  Valores únicos: 1
  Valores nulos: 0
- Valores duplicados: 295
+ Valores duplicados: 271
  Valor más común: DIVERSIFICADO
 
  Variable SECTOR:
  Tipo: object
  Valores únicos: 4
+ Valores nulos: 0
+ Valores duplicados: 268
+ Valor más común: PRIVADO
+
+ Variable AREA:
+ Tipo: object
+ Valores únicos: 2
+ Valores nulos: 0
+ Valores duplicados: 270
+ Valor más común: URBANA
+
+ Variable STATUS:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 271
+ Valor más común: ABIERTA
+
+ Variable MODALIDAD:
+ Tipo: object
+ Valores únicos: 2
+ Valores nulos: 0
+ Valores duplicados: 270
+ Valor más común: MONOLINGUE
+
+ Variable JORNADA:
+ Tipo: object
+ Valores únicos: 5
+ Valores nulos: 0
+ Valores duplicados: 267
+ Valor más común: DOBLE
+
+ Variable PLAN:
+ Tipo: object
+ Valores únicos: 7
+ Valores nulos: 0
+ Valores duplicados: 265
+ Valor más común: DIARIO(REGULAR)
+
+ Variable DEPARTAMENTAL:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 271
+ Valor más común: RETALHULEU
+
+==================================================
+
+--- Analizando el archivo: ciudad_capital.csv ---
+
+ESTADÍSTICAS DETALLADAS:
+ Filas iniciales: 859
+ Variables iniciales: 18
+
+ Variable CODIGO:
+ Tipo: object
+ Valores únicos: 859
+ Valores nulos: 0
+ Valores duplicados: 0
+ Valor más común: 00-01-0158-46
+
+ Variable Unnamed: 1:
+ Tipo: float64
+ Valores únicos: 0
+ Valores nulos: 859
+ Valores duplicados: 858
+ Min: nan
+ Max: nan
+ Media: nan
+
+ Variable DISTRITO:
+ Tipo: object
+ Valores únicos: 49
+ Valores nulos: 0
+ Valores duplicados: 810
+ Valor más común: 01-403
+
+ Variable DEPARTAMENTO:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 858
+ Valor más común: CIUDAD CAPITAL
+
+ Variable MUNICIPIO:
+ Tipo: object
+ Valores únicos: 21
+ Valores nulos: 0
+ Valores duplicados: 838
+ Valor más común: ZONA 1
+
+ Variable ESTABLECIMIENTO:
+ Tipo: object
+ Valores únicos: 563
+ Valores nulos: 0
+ Valores duplicados: 296
+ Valor más común: INSTITUTO GUILLERMO PUTZEYS LVAREZ
+
+ Variable DIRECCION:
+ Tipo: object
+ Valores únicos: 619
+ Valores nulos: 0
+ Valores duplicados: 240
+ Valor más común: 11 CALLE 3-59
+
+ Variable TELEFONO:
+ Tipo: int64
+ Valores únicos: 529
+ Valores nulos: 0
+ Valores duplicados: 330
+ Min: 2223228
+ Max: 59996502
+ Media: 28682005.13
+
+ Variable SUPERVISOR:
+ Tipo: object
+ Valores únicos: 46
+ Valores nulos: 0
+ Valores duplicados: 813
+ Valor más común: CARLOS HUMBERTO GONZLEZ DE LEӎ
+
+ Variable DIRECTOR:
+ Tipo: object
+ Valores únicos: 460
+ Valores nulos: 1
+ Valores duplicados: 398
+ Valor más común: MARCO TULIO VARGAS ALVARADO
+
+ Variable NIVEL:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 858
+ Valor más común: DIVERSIFICADO
+
+ Variable SECTOR:
+ Tipo: object
+ Valores únicos: 4
+ Valores nulos: 0
+ Valores duplicados: 855
+ Valor más común: PRIVADO
+
+ Variable AREA:
+ Tipo: object
+ Valores únicos: 3
+ Valores nulos: 0
+ Valores duplicados: 856
+ Valor más común: URBANA
+
+ Variable STATUS:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 858
+ Valor más común: ABIERTA
+
+ Variable MODALIDAD:
+ Tipo: object
+ Valores únicos: 2
+ Valores nulos: 0
+ Valores duplicados: 857
+ Valor más común: MONOLINGUE
+
+ Variable JORNADA:
+ Tipo: object
+ Valores únicos: 6
+ Valores nulos: 0
+ Valores duplicados: 853
+ Valor más común: MATUTINA
+
+ Variable PLAN:
+ Tipo: object
+ Valores únicos: 9
+ Valores nulos: 0
+ Valores duplicados: 850
+ Valor más común: DIARIO(REGULAR)
+
+ Variable DEPARTAMENTAL:
+ Tipo: object
+ Valores únicos: 4
+ Valores nulos: 0
+ Valores duplicados: 855
+ Valor más común: GUATEMALA NORTE
+
+==================================================
+
+--- Analizando el archivo: el_progreso.csv ---
+
+ESTADÍSTICAS DETALLADAS:
+ Filas iniciales: 97
+ Variables iniciales: 18
+
+ Variable CODIGO:
+ Tipo: object
+ Valores únicos: 97
+ Valores nulos: 0
+ Valores duplicados: 0
+ Valor más común: 02-01-0027-46
+
+ Variable Unnamed: 1:
+ Tipo: float64
+ Valores únicos: 0
+ Valores nulos: 97
+ Valores duplicados: 96
+ Min: nan
+ Max: nan
+ Media: nan
+
+ Variable DISTRITO:
+ Tipo: object
+ Valores únicos: 15
+ Valores nulos: 0
+ Valores duplicados: 82
+ Valor más común: 02-015
+
+ Variable DEPARTAMENTO:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 96
+ Valor más común: EL PROGRESO
+
+ Variable MUNICIPIO:
+ Tipo: object
+ Valores únicos: 8
+ Valores nulos: 0
+ Valores duplicados: 89
+ Valor más común: SAN AGUSTIN ACASAGUASTLAN
+
+ Variable ESTABLECIMIENTO:
+ Tipo: object
+ Valores únicos: 56
+ Valores nulos: 0
+ Valores duplicados: 41
+ Valor más común: INSTITUTO NACIONAL DE EDUCACION DIVERSIFICADA
+
+ Variable DIRECCION:
+ Tipo: object
+ Valores únicos: 59
+ Valores nulos: 0
+ Valores duplicados: 38
+ Valor más común: BARRIO EL PORVENIR
+
+ Variable TELEFONO:
+ Tipo: float64
+ Valores únicos: 74
+ Valores nulos: 2
+ Valores duplicados: 22
+ Min: 3033.0
+ Max: 79637575.0
+ Media: 57970683.76
+
+ Variable SUPERVISOR:
+ Tipo: object
+ Valores únicos: 15
+ Valores nulos: 0
+ Valores duplicados: 82
+ Valor más común: EDNA LILY ALDANA GODOY
+
+ Variable DIRECTOR:
+ Tipo: object
+ Valores únicos: 66
+ Valores nulos: 0
+ Valores duplicados: 31
+ Valor más común: DELFINA MARISOL PAZOS RAMOS
+
+ Variable NIVEL:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 96
+ Valor más común: DIVERSIFICADO
+
+ Variable SECTOR:
+ Tipo: object
+ Valores únicos: 4
+ Valores nulos: 0
+ Valores duplicados: 93
+ Valor más común: PRIVADO
+
+ Variable AREA:
+ Tipo: object
+ Valores únicos: 2
+ Valores nulos: 0
+ Valores duplicados: 95
+ Valor más común: URBANA
+
+ Variable STATUS:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 96
+ Valor más común: ABIERTA
+
+ Variable MODALIDAD:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 96
+ Valor más común: MONOLINGUE
+
+ Variable JORNADA:
+ Tipo: object
+ Valores únicos: 4
+ Valores nulos: 0
+ Valores duplicados: 93
+ Valor más común: VESPERTINA
+
+ Variable PLAN:
+ Tipo: object
+ Valores únicos: 4
+ Valores nulos: 0
+ Valores duplicados: 93
+ Valor más común: DIARIO(REGULAR)
+
+ Variable DEPARTAMENTAL:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 96
+ Valor más común: EL PROGRESO
+
+==================================================
+
+--- Analizando el archivo: zacapa.csv ---
+
+ESTADÍSTICAS DETALLADAS:
+ Filas iniciales: 70
+ Variables iniciales: 18
+
+ Variable CODIGO:
+ Tipo: object
+ Valores únicos: 70
+ Valores nulos: 0
+ Valores duplicados: 0
+ Valor más común: 19-01-0078-46
+
+ Variable Unnamed: 1:
+ Tipo: float64
+ Valores únicos: 0
+ Valores nulos: 70
+ Valores duplicados: 69
+ Min: nan
+ Max: nan
+ Media: nan
+
+ Variable DISTRITO:
+ Tipo: object
+ Valores únicos: 15
+ Valores nulos: 0
+ Valores duplicados: 55
+ Valor más común: 19-019
+
+ Variable DEPARTAMENTO:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 69
+ Valor más común: ZACAPA
+
+ Variable MUNICIPIO:
+ Tipo: object
+ Valores únicos: 11
+ Valores nulos: 0
+ Valores duplicados: 59
+ Valor más común: ZACAPA
+
+ Variable ESTABLECIMIENTO:
+ Tipo: object
+ Valores únicos: 46
+ Valores nulos: 0
+ Valores duplicados: 24
+ Valor más común: INSTITUTO NACIONAL DE EDUCACION DIVERSIFICADA, INED
+
+ Variable DIRECCION:
+ Tipo: object
+ Valores únicos: 50
+ Valores nulos: 0
+ Valores duplicados: 20
+ Valor más común: BARRIO LAS FLORES
+
+ Variable TELEFONO:
+ Tipo: int64
+ Valores únicos: 58
+ Valores nulos: 0
+ Valores duplicados: 12
+ Min: 31181139
+ Max: 79419096
+ Media: 60346772.99
+
+ Variable SUPERVISOR:
+ Tipo: object
+ Valores únicos: 14
+ Valores nulos: 0
+ Valores duplicados: 56
+ Valor más común: HUGO WILFREDO VARGAS CHACON
+
+ Variable DIRECTOR:
+ Tipo: object
+ Valores únicos: 57
+ Valores nulos: 0
+ Valores duplicados: 13
+ Valor más común: ANA MAŔ CUELLAR GUERRA
+
+ Variable NIVEL:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 69
+ Valor más común: DIVERSIFICADO
+
+ Variable SECTOR:
+ Tipo: object
+ Valores únicos: 4
+ Valores nulos: 0
+ Valores duplicados: 66
+ Valor más común: PRIVADO
+
+ Variable AREA:
+ Tipo: object
+ Valores únicos: 2
+ Valores nulos: 0
+ Valores duplicados: 68
+ Valor más común: URBANA
+
+ Variable STATUS:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 69
+ Valor más común: ABIERTA
+
+ Variable MODALIDAD:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 69
+ Valor más común: MONOLINGUE
+
+ Variable JORNADA:
+ Tipo: object
+ Valores únicos: 5
+ Valores nulos: 0
+ Valores duplicados: 65
+ Valor más común: VESPERTINA
+
+ Variable PLAN:
+ Tipo: object
+ Valores únicos: 5
+ Valores nulos: 0
+ Valores duplicados: 65
+ Valor más común: DIARIO(REGULAR)
+
+ Variable DEPARTAMENTAL:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 69
+ Valor más común: ZACAPA
+
+==================================================
+
+--- Analizando el archivo: chimaltenango.csv ---
+
+ESTADÍSTICAS DETALLADAS:
+ Filas iniciales: 300
+ Variables iniciales: 18
+
+ Variable CODIGO:
+ Tipo: object
+ Valores únicos: 300
+ Valores nulos: 0
+ Valores duplicados: 0
+ Valor más común: 04-01-0044-46
+
+ Variable Unnamed: 1:
+ Tipo: float64
+ Valores únicos: 0
+ Valores nulos: 300
+ Valores duplicados: 299
+ Min: nan
+ Max: nan
+ Media: nan
+
+ Variable DISTRITO:
+ Tipo: object
+ Valores únicos: 34
+ Valores nulos: 0
+ Valores duplicados: 266
+ Valor más común: 04-001
+
+ Variable DEPARTAMENTO:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 299
+ Valor más común: CHIMALTENANGO
+
+ Variable MUNICIPIO:
+ Tipo: object
+ Valores únicos: 16
+ Valores nulos: 0
+ Valores duplicados: 284
+ Valor más común: CHIMALTENANGO
+
+ Variable ESTABLECIMIENTO:
+ Tipo: object
+ Valores únicos: 175
+ Valores nulos: 0
+ Valores duplicados: 125
+ Valor más común: INSTITUTO EVANGɌICO AMɒICA LATINA
+
+ Variable DIRECCION:
+ Tipo: object
+ Valores únicos: 177
+ Valores nulos: 0
+ Valores duplicados: 123
+ Valor más común: 8A. AVENIDA 3-59 ZONA 2
+
+ Variable TELEFONO:
+ Tipo: object
+ Valores únicos: 162
+ Valores nulos: 0
+ Valores duplicados: 138
+ Valor más común: 77282600
+
+ Variable SUPERVISOR:
+ Tipo: object
+ Valores únicos: 32
+ Valores nulos: 0
+ Valores duplicados: 268
+ Valor más común: ISMAEL CRISTAL AJCET
+
+ Variable DIRECTOR:
+ Tipo: object
+ Valores únicos: 156
+ Valores nulos: 0
+ Valores duplicados: 144
+ Valor más común: AXEL EDUARDO ESTRADA CHVEZ
+
+ Variable NIVEL:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 299
+ Valor más común: DIVERSIFICADO
+
+ Variable SECTOR:
+ Tipo: object
+ Valores únicos: 4
+ Valores nulos: 0
+ Valores duplicados: 296
+ Valor más común: PRIVADO
+
+ Variable AREA:
+ Tipo: object
+ Valores únicos: 2
+ Valores nulos: 0
+ Valores duplicados: 298
+ Valor más común: URBANA
+
+ Variable STATUS:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 299
+ Valor más común: ABIERTA
+
+ Variable MODALIDAD:
+ Tipo: object
+ Valores únicos: 2
+ Valores nulos: 0
+ Valores duplicados: 298
+ Valor más común: MONOLINGUE
+
+ Variable JORNADA:
+ Tipo: object
+ Valores únicos: 6
+ Valores nulos: 0
+ Valores duplicados: 294
+ Valor más común: DOBLE
+
+ Variable PLAN:
+ Tipo: object
+ Valores únicos: 8
+ Valores nulos: 0
+ Valores duplicados: 292
+ Valor más común: DIARIO(REGULAR)
+
+ Variable DEPARTAMENTAL:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 299
+ Valor más común: CHIMALTENANGO
+
+==================================================
+
+--- Analizando el archivo: quetzaltenango.csv ---
+
+ESTADÍSTICAS DETALLADAS:
+ Filas iniciales: 365
+ Variables iniciales: 18
+
+ Variable CODIGO:
+ Tipo: object
+ Valores únicos: 365
+ Valores nulos: 0
+ Valores duplicados: 0
+ Valor más común: 09-01-0098-46
+
+ Variable Unnamed: 1:
+ Tipo: float64
+ Valores únicos: 0
+ Valores nulos: 365
+ Valores duplicados: 364
+ Min: nan
+ Max: nan
+ Media: nan
+
+ Variable DISTRITO:
+ Tipo: object
+ Valores únicos: 33
+ Valores nulos: 0
+ Valores duplicados: 332
+ Valor más común: 09-006
+
+ Variable DEPARTAMENTO:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 364
+ Valor más común: QUETZALTENANGO
+
+ Variable MUNICIPIO:
+ Tipo: object
+ Valores únicos: 22
+ Valores nulos: 0
+ Valores duplicados: 343
+ Valor más común: QUETZALTENANGO
+
+ Variable ESTABLECIMIENTO:
+ Tipo: object
+ Valores únicos: 235
+ Valores nulos: 0
+ Valores duplicados: 130
+ Valor más común: INSTITUTO NACIONAL DE EDUCACION DIVERSIFICADA
+
+ Variable DIRECCION:
+ Tipo: object
+ Valores únicos: 278
+ Valores nulos: 0
+ Valores duplicados: 87
+ Valor más común: 21 AVENIDA 3-61 ZONA 3
+
+ Variable TELEFONO:
+ Tipo: int64
+ Valores únicos: 243
+ Valores nulos: 0
+ Valores duplicados: 122
+ Min: 30137593
+ Max: 79268245
+ Media: 63558881.23
+
+ Variable SUPERVISOR:
+ Tipo: object
+ Valores únicos: 33
+ Valores nulos: 0
+ Valores duplicados: 332
+ Valor más común: PEDRO GERӎIMO SARAT CHAJ
+
+ Variable DIRECTOR:
+ Tipo: object
+ Valores únicos: 224
+ Valores nulos: 1
+ Valores duplicados: 140
+ Valor más común: EDILSAR ROCAEL VAZQUEZ PEREZ
+
+ Variable NIVEL:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 364
+ Valor más común: DIVERSIFICADO
+
+ Variable SECTOR:
+ Tipo: object
+ Valores únicos: 4
+ Valores nulos: 0
+ Valores duplicados: 361
+ Valor más común: PRIVADO
+
+ Variable AREA:
+ Tipo: object
+ Valores únicos: 2
+ Valores nulos: 0
+ Valores duplicados: 363
+ Valor más común: URBANA
+
+ Variable STATUS:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 364
+ Valor más común: ABIERTA
+
+ Variable MODALIDAD:
+ Tipo: object
+ Valores únicos: 2
+ Valores nulos: 0
+ Valores duplicados: 363
+ Valor más común: MONOLINGUE
+
+ Variable JORNADA:
+ Tipo: object
+ Valores únicos: 5
+ Valores nulos: 0
+ Valores duplicados: 360
+ Valor más común: VESPERTINA
+
+ Variable PLAN:
+ Tipo: object
+ Valores únicos: 7
+ Valores nulos: 0
+ Valores duplicados: 358
+ Valor más común: DIARIO(REGULAR)
+
+ Variable DEPARTAMENTAL:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 364
+ Valor más común: QUETZALTENANGO
+
+==================================================
+
+--- Analizando el archivo: quiche.csv ---
+
+ESTADÍSTICAS DETALLADAS:
+ Filas iniciales: 184
+ Variables iniciales: 18
+
+ Variable CODIGO:
+ Tipo: object
+ Valores únicos: 184
+ Valores nulos: 0
+ Valores duplicados: 0
+ Valor más común: 14-01-0077-46
+
+ Variable Unnamed: 1:
+ Tipo: float64
+ Valores únicos: 0
+ Valores nulos: 184
+ Valores duplicados: 183
+ Min: nan
+ Max: nan
+ Media: nan
+
+ Variable DISTRITO:
+ Tipo: object
+ Valores únicos: 34
+ Valores nulos: 0
+ Valores duplicados: 150
+ Valor más común: 14-036
+
+ Variable DEPARTAMENTO:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 183
+ Valor más común: QUICHE
+
+ Variable MUNICIPIO:
+ Tipo: object
+ Valores únicos: 20
+ Valores nulos: 0
+ Valores duplicados: 164
+ Valor más común: SANTA CRUZ DEL QUICHE
+
+ Variable ESTABLECIMIENTO:
+ Tipo: object
+ Valores únicos: 135
+ Valores nulos: 0
+ Valores duplicados: 49
+ Valor más común: INSTITUTO NACIONAL DE EDUCACION DIVERSIFICADA
+
+ Variable DIRECCION:
+ Tipo: object
+ Valores únicos: 140
+ Valores nulos: 0
+ Valores duplicados: 44
+ Valor más común: ZONA 1 PLAYA GRANDE
+
+ Variable TELEFONO:
+ Tipo: int64
+ Valores únicos: 138
+ Valores nulos: 0
+ Valores duplicados: 46
+ Min: 0
+ Max: 79638520
+ Media: 54339088.30
+
+ Variable SUPERVISOR:
+ Tipo: object
+ Valores únicos: 34
+ Valores nulos: 0
+ Valores duplicados: 150
+ Valor más común: GONZALO VENTURA LUX
+
+ Variable DIRECTOR:
+ Tipo: object
+ Valores únicos: 139
+ Valores nulos: 1
+ Valores duplicados: 44
+ Valor más común: FEDERICO HERNNDEZ ZAPETA
+
+ Variable NIVEL:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 183
+ Valor más común: DIVERSIFICADO
+
+ Variable SECTOR:
+ Tipo: object
+ Valores únicos: 4
+ Valores nulos: 0
+ Valores duplicados: 180
+ Valor más común: PRIVADO
+
+ Variable AREA:
+ Tipo: object
+ Valores únicos: 2
+ Valores nulos: 0
+ Valores duplicados: 182
+ Valor más común: URBANA
+
+ Variable STATUS:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 183
+ Valor más común: ABIERTA
+
+ Variable MODALIDAD:
+ Tipo: object
+ Valores únicos: 2
+ Valores nulos: 0
+ Valores duplicados: 182
+ Valor más común: MONOLINGUE
+
+ Variable JORNADA:
+ Tipo: object
+ Valores únicos: 6
+ Valores nulos: 0
+ Valores duplicados: 178
+ Valor más común: VESPERTINA
+
+ Variable PLAN:
+ Tipo: object
+ Valores únicos: 7
+ Valores nulos: 0
+ Valores duplicados: 177
+ Valor más común: DIARIO(REGULAR)
+
+ Variable DEPARTAMENTAL:
+ Tipo: object
+ Valores únicos: 2
+ Valores nulos: 0
+ Valores duplicados: 182
+ Valor más común: QUICHE
+
+==================================================
+
+--- Analizando el archivo: guatemala.csv ---
+
+ESTADÍSTICAS DETALLADAS:
+ Filas iniciales: 1036
+ Variables iniciales: 18
+
+ Variable CODIGO:
+ Tipo: object
+ Valores únicos: 1036
+ Valores nulos: 0
+ Valores duplicados: 0
+ Valor más común: 01-02-0012-46
+
+ Variable Unnamed: 1:
+ Tipo: float64
+ Valores únicos: 0
+ Valores nulos: 1036
+ Valores duplicados: 1035
+ Min: nan
+ Max: nan
+ Media: nan
+
+ Variable DISTRITO:
+ Tipo: object
+ Valores únicos: 75
+ Valores nulos: 0
+ Valores duplicados: 961
+ Valor más común: 01-411
+
+ Variable DEPARTAMENTO:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 1035
+ Valor más común: GUATEMALA
+
+ Variable MUNICIPIO:
+ Tipo: object
+ Valores únicos: 16
+ Valores nulos: 0
+ Valores duplicados: 1020
+ Valor más común: MIXCO
+
+ Variable ESTABLECIMIENTO:
+ Tipo: object
+ Valores únicos: 657
+ Valores nulos: 0
+ Valores duplicados: 379
+ Valor más común: INSTITUTO NACIONAL DE EDUCACION DIVERSIFICADA
+
+ Variable DIRECCION:
+ Tipo: object
+ Valores únicos: 811
+ Valores nulos: 0
+ Valores duplicados: 225
+ Valor más común: 30 AVENIDA 5-19 ZONA 4, COLONIA BOSQUES DE SAN NICOLS
+
+ Variable TELEFONO:
+ Tipo: object
+ Valores únicos: 673
+ Valores nulos: 4
+ Valores duplicados: 362
+ Valor más común: 24837931
+
+ Variable SUPERVISOR:
+ Tipo: object
+ Valores únicos: 72
+ Valores nulos: 0
+ Valores duplicados: 964
+ Valor más común: JUAN ENRIQUE MARTINEZ SOLANO
+
+ Variable DIRECTOR:
+ Tipo: object
+ Valores únicos: 610
+ Valores nulos: 2
+ Valores duplicados: 425
+ Valor más común: CARMEN ALCIRA GARĆ REYES
+
+ Variable NIVEL:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 1035
+ Valor más común: DIVERSIFICADO
+
+ Variable SECTOR:
+ Tipo: object
+ Valores únicos: 4
+ Valores nulos: 0
+ Valores duplicados: 1032
+ Valor más común: PRIVADO
+
+ Variable AREA:
+ Tipo: object
+ Valores únicos: 2
+ Valores nulos: 0
+ Valores duplicados: 1034
+ Valor más común: URBANA
+
+ Variable STATUS:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 1035
+ Valor más común: ABIERTA
+
+ Variable MODALIDAD:
+ Tipo: object
+ Valores únicos: 2
+ Valores nulos: 0
+ Valores duplicados: 1034
+ Valor más común: MONOLINGUE
+
+ Variable JORNADA:
+ Tipo: object
+ Valores únicos: 5
+ Valores nulos: 0
+ Valores duplicados: 1031
+ Valor más común: MATUTINA
+
+ Variable PLAN:
+ Tipo: object
+ Valores únicos: 8
+ Valores nulos: 0
+ Valores duplicados: 1028
+ Valor más común: DIARIO(REGULAR)
+
+ Variable DEPARTAMENTAL:
+ Tipo: object
+ Valores únicos: 4
+ Valores nulos: 0
+ Valores duplicados: 1032
+ Valor más común: GUATEMALA OCCIDENTE
+
+==================================================
+
+--- Analizando el archivo: escuintla.csv ---
+
+ESTADÍSTICAS DETALLADAS:
+ Filas iniciales: 393
+ Variables iniciales: 18
+
+ Variable CODIGO:
+ Tipo: object
+ Valores únicos: 393
+ Valores nulos: 0
+ Valores duplicados: 0
+ Valor más común: 05-01-0110-46
+
+ Variable Unnamed: 1:
+ Tipo: float64
+ Valores únicos: 0
+ Valores nulos: 393
+ Valores duplicados: 392
+ Min: nan
+ Max: nan
+ Media: nan
+
+ Variable DISTRITO:
+ Tipo: object
+ Valores únicos: 17
+ Valores nulos: 0
+ Valores duplicados: 376
+ Valor más común: 05-033
+
+ Variable DEPARTAMENTO:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 392
+ Valor más común: ESCUINTLA
+
+ Variable MUNICIPIO:
+ Tipo: object
+ Valores únicos: 14
+ Valores nulos: 0
+ Valores duplicados: 379
+ Valor más común: ESCUINTLA
+
+ Variable ESTABLECIMIENTO:
+ Tipo: object
+ Valores únicos: 228
+ Valores nulos: 0
+ Valores duplicados: 165
+ Valor más común: INSTITUTO NACIONAL DE EDUCACION DIVERSIFICADA
+
+ Variable DIRECCION:
+ Tipo: object
+ Valores únicos: 292
+ Valores nulos: 0
+ Valores duplicados: 101
+ Valor más común: 4TA. AVENIDA NORTE 1RA. CALLE "A" LOTIFICACIӎ EL BILBAO
+
+ Variable TELEFONO:
+ Tipo: object
+ Valores únicos: 218
+ Valores nulos: 2
+ Valores duplicados: 174
+ Valor más común: 77746400
+
+ Variable SUPERVISOR:
+ Tipo: object
+ Valores únicos: 16
+ Valores nulos: 0
+ Valores duplicados: 377
+ Valor más común: REMY ARTURO SINAY GUDIEL
+
+ Variable DIRECTOR:
+ Tipo: object
+ Valores únicos: 207
+ Valores nulos: 1
+ Valores duplicados: 185
+ Valor más común: MAŔ DOLORES PɒEZ TUCHN
+
+ Variable NIVEL:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 392
+ Valor más común: DIVERSIFICADO
+
+ Variable SECTOR:
+ Tipo: object
+ Valores únicos: 4
+ Valores nulos: 0
+ Valores duplicados: 389
+ Valor más común: PRIVADO
+
+ Variable AREA:
+ Tipo: object
+ Valores únicos: 2
+ Valores nulos: 0
+ Valores duplicados: 391
+ Valor más común: URBANA
+
+ Variable STATUS:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 392
+ Valor más común: ABIERTA
+
+ Variable MODALIDAD:
+ Tipo: object
+ Valores únicos: 2
+ Valores nulos: 0
+ Valores duplicados: 391
+ Valor más común: MONOLINGUE
+
+ Variable JORNADA:
+ Tipo: object
+ Valores únicos: 6
+ Valores nulos: 0
+ Valores duplicados: 387
+ Valor más común: DOBLE
+
+ Variable PLAN:
+ Tipo: object
+ Valores únicos: 8
+ Valores nulos: 0
+ Valores duplicados: 385
+ Valor más común: DIARIO(REGULAR)
+
+ Variable DEPARTAMENTAL:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 392
+ Valor más común: ESCUINTLA
+
+==================================================
+
+--- Analizando el archivo: huehuetenango.csv ---
+
+ESTADÍSTICAS DETALLADAS:
+ Filas iniciales: 295
+ Variables iniciales: 18
+
+ Variable CODIGO:
+ Tipo: object
+ Valores únicos: 295
+ Valores nulos: 0
+ Valores duplicados: 0
+ Valor más común: 13-01-0065-46
+
+ Variable Unnamed: 1:
+ Tipo: float64
+ Valores únicos: 0
+ Valores nulos: 295
+ Valores duplicados: 294
+ Min: nan
+ Max: nan
+ Media: nan
+
+ Variable DISTRITO:
+ Tipo: object
+ Valores únicos: 42
+ Valores nulos: 0
+ Valores duplicados: 253
+ Valor más común: 13-004
+
+ Variable DEPARTAMENTO:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 294
+ Valor más común: HUEHUETENANGO
+
+ Variable MUNICIPIO:
+ Tipo: object
+ Valores únicos: 30
+ Valores nulos: 0
+ Valores duplicados: 265
+ Valor más común: HUEHUETENANGO
+
+ Variable ESTABLECIMIENTO:
+ Tipo: object
+ Valores únicos: 191
+ Valores nulos: 0
+ Valores duplicados: 104
+ Valor más común: INSTITUTO NACIONAL DE EDUCACIӎ DIVERSIFICADA
+
+ Variable DIRECCION:
+ Tipo: object
+ Valores únicos: 170
+ Valores nulos: 0
+ Valores duplicados: 125
+ Valor más común: CABECERA MUNICIPAL
+
+ Variable TELEFONO:
+ Tipo: int64
+ Valores únicos: 196
+ Valores nulos: 0
+ Valores duplicados: 99
+ Min: 30029953
+ Max: 79345932
+ Media: 55319023.69
+
+ Variable SUPERVISOR:
+ Tipo: object
+ Valores únicos: 39
+ Valores nulos: 0
+ Valores duplicados: 256
+ Valor más común: CLARA ARMIDA MORALES CASTILLO
+
+ Variable DIRECTOR:
+ Tipo: object
+ Valores únicos: 196
+ Valores nulos: 0
+ Valores duplicados: 99
+ Valor más común: ORACIO ALMENGOR MART͎EZ VILLATORO
+
+ Variable NIVEL:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 294
+ Valor más común: DIVERSIFICADO
+
+ Variable SECTOR:
+ Tipo: object
+ Valores únicos: 3
  Valores nulos: 0
  Valores duplicados: 292
  Valor más común: PRIVADO
@@ -2841,43 +2705,179 @@ ESTADÍSTICAS DETALLADAS:
  Tipo: object
  Valores únicos: 2
  Valores nulos: 0
- Valores duplicados: 294
+ Valores duplicados: 293
  Valor más común: URBANA
 
  Variable STATUS:
  Tipo: object
  Valores únicos: 1
  Valores nulos: 0
- Valores duplicados: 295
+ Valores duplicados: 294
  Valor más común: ABIERTA
 
  Variable MODALIDAD:
  Tipo: object
- Valores únicos: 1
+ Valores únicos: 2
  Valores nulos: 0
- Valores duplicados: 295
+ Valores duplicados: 293
  Valor más común: MONOLINGUE
 
  Variable JORNADA:
  Tipo: object
- Valores únicos: 5
+ Valores únicos: 4
  Valores nulos: 0
  Valores duplicados: 291
- Valor más común: DOBLE
+ Valor más común: VESPERTINA
 
  Variable PLAN:
  Tipo: object
- Valores únicos: 6
+ Valores únicos: 8
  Valores nulos: 0
- Valores duplicados: 290
+ Valores duplicados: 287
  Valor más común: DIARIO(REGULAR)
 
  Variable DEPARTAMENTAL:
  Tipo: object
  Valores únicos: 1
  Valores nulos: 0
- Valores duplicados: 295
- Valor más común: SUCHITEPEQUEZ
+ Valores duplicados: 294
+ Valor más común: HUEHUETENANGO
+
+==================================================
+
+--- Analizando el archivo: jalapa.csv ---
+
+ESTADÍSTICAS DETALLADAS:
+ Filas iniciales: 121
+ Variables iniciales: 18
+
+ Variable CODIGO:
+ Tipo: object
+ Valores únicos: 121
+ Valores nulos: 0
+ Valores duplicados: 0
+ Valor más común: 21-01-0101-46
+
+ Variable Unnamed: 1:
+ Tipo: float64
+ Valores únicos: 0
+ Valores nulos: 121
+ Valores duplicados: 120
+ Min: nan
+ Max: nan
+ Media: nan
+
+ Variable DISTRITO:
+ Tipo: object
+ Valores únicos: 14
+ Valores nulos: 0
+ Valores duplicados: 107
+ Valor más común: 21-004
+
+ Variable DEPARTAMENTO:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 120
+ Valor más común: JALAPA
+
+ Variable MUNICIPIO:
+ Tipo: object
+ Valores únicos: 7
+ Valores nulos: 0
+ Valores duplicados: 114
+ Valor más común: JALAPA
+
+ Variable ESTABLECIMIENTO:
+ Tipo: object
+ Valores únicos: 76
+ Valores nulos: 0
+ Valores duplicados: 45
+ Valor más común: INSTITUTO NACIONAL DE EDUCACION DIVERSIFICADA
+
+ Variable DIRECCION:
+ Tipo: object
+ Valores únicos: 88
+ Valores nulos: 0
+ Valores duplicados: 33
+ Valor más común: BARRIO LA REFORMA
+
+ Variable TELEFONO:
+ Tipo: object
+ Valores únicos: 82
+ Valores nulos: 0
+ Valores duplicados: 39
+ Valor más común: 79220013
+
+ Variable SUPERVISOR:
+ Tipo: object
+ Valores únicos: 14
+ Valores nulos: 0
+ Valores duplicados: 107
+ Valor más común: VICTOR MANUEL PORTILLO RECINOS
+
+ Variable DIRECTOR:
+ Tipo: object
+ Valores únicos: 75
+ Valores nulos: 0
+ Valores duplicados: 46
+ Valor más común: AMILCAR PEREZ RAMIREZ
+
+ Variable NIVEL:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 120
+ Valor más común: DIVERSIFICADO
+
+ Variable SECTOR:
+ Tipo: object
+ Valores únicos: 4
+ Valores nulos: 0
+ Valores duplicados: 117
+ Valor más común: PRIVADO
+
+ Variable AREA:
+ Tipo: object
+ Valores únicos: 2
+ Valores nulos: 0
+ Valores duplicados: 119
+ Valor más común: URBANA
+
+ Variable STATUS:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 120
+ Valor más común: ABIERTA
+
+ Variable MODALIDAD:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 120
+ Valor más común: MONOLINGUE
+
+ Variable JORNADA:
+ Tipo: object
+ Valores únicos: 5
+ Valores nulos: 0
+ Valores duplicados: 116
+ Valor más común: VESPERTINA
+
+ Variable PLAN:
+ Tipo: object
+ Valores únicos: 7
+ Valores nulos: 0
+ Valores duplicados: 114
+ Valor más común: DIARIO(REGULAR)
+
+ Variable DEPARTAMENTAL:
+ Tipo: object
+ Valores únicos: 1
+ Valores nulos: 0
+ Valores duplicados: 120
+ Valor más común: JALAPA
 
 ==================================================
 
@@ -3017,140 +3017,140 @@ ESTADÍSTICAS DETALLADAS:
 
 ==================================================
 
---- Analizando el archivo: zacapa.csv ---
+--- Analizando el archivo: jutiapa.csv ---
 
 ESTADÍSTICAS DETALLADAS:
- Filas iniciales: 70
+ Filas iniciales: 296
  Variables iniciales: 18
 
  Variable CODIGO:
  Tipo: object
- Valores únicos: 70
+ Valores únicos: 296
  Valores nulos: 0
  Valores duplicados: 0
- Valor más común: 19-01-0078-46
+ Valor más común: 22-01-0014-46
 
  Variable Unnamed: 1:
  Tipo: float64
  Valores únicos: 0
- Valores nulos: 70
- Valores duplicados: 69
+ Valores nulos: 296
+ Valores duplicados: 295
  Min: nan
  Max: nan
  Media: nan
 
  Variable DISTRITO:
  Tipo: object
- Valores únicos: 15
+ Valores únicos: 35
  Valores nulos: 0
- Valores duplicados: 55
- Valor más común: 19-019
+ Valores duplicados: 261
+ Valor más común: 22-003
 
  Variable DEPARTAMENTO:
  Tipo: object
  Valores únicos: 1
  Valores nulos: 0
- Valores duplicados: 69
- Valor más común: ZACAPA
+ Valores duplicados: 295
+ Valor más común: JUTIAPA
 
  Variable MUNICIPIO:
  Tipo: object
- Valores únicos: 11
+ Valores únicos: 17
  Valores nulos: 0
- Valores duplicados: 59
- Valor más común: ZACAPA
+ Valores duplicados: 279
+ Valor más común: JUTIAPA
 
  Variable ESTABLECIMIENTO:
  Tipo: object
- Valores únicos: 46
+ Valores únicos: 183
  Valores nulos: 0
- Valores duplicados: 24
- Valor más común: INSTITUTO NACIONAL DE EDUCACION DIVERSIFICADA, INED
+ Valores duplicados: 113
+ Valor más común: INSTITUTO NACIONAL DE EDUCACION DIVERSIFICADA
 
  Variable DIRECCION:
  Tipo: object
- Valores únicos: 50
- Valores nulos: 0
- Valores duplicados: 20
- Valor más común: BARRIO LAS FLORES
+ Valores únicos: 166
+ Valores nulos: 1
+ Valores duplicados: 129
+ Valor más común: BARRIO EL CENTRO
 
  Variable TELEFONO:
- Tipo: int64
- Valores únicos: 58
- Valores nulos: 0
- Valores duplicados: 12
- Min: 31181139
- Max: 79419096
- Media: 60346772.99
+ Tipo: float64
+ Valores únicos: 175
+ Valores nulos: 7
+ Valores duplicados: 120
+ Min: 7844007.0
+ Max: 79344001.0
+ Media: 60252823.11
 
  Variable SUPERVISOR:
  Tipo: object
- Valores únicos: 14
+ Valores únicos: 33
  Valores nulos: 0
- Valores duplicados: 56
- Valor más común: HUGO WILFREDO VARGAS CHACON
+ Valores duplicados: 263
+ Valor más común: REMBERTO RECINOS SARCEя
 
  Variable DIRECTOR:
  Tipo: object
- Valores únicos: 57
- Valores nulos: 0
- Valores duplicados: 13
- Valor más común: ANA MAŔ CUELLAR GUERRA
+ Valores únicos: 167
+ Valores nulos: 7
+ Valores duplicados: 128
+ Valor más común: RONI ERNESTO RECINOS ESTRADA
 
  Variable NIVEL:
  Tipo: object
  Valores únicos: 1
  Valores nulos: 0
- Valores duplicados: 69
+ Valores duplicados: 295
  Valor más común: DIVERSIFICADO
 
  Variable SECTOR:
  Tipo: object
  Valores únicos: 4
  Valores nulos: 0
- Valores duplicados: 66
+ Valores duplicados: 292
  Valor más común: PRIVADO
 
  Variable AREA:
  Tipo: object
  Valores únicos: 2
  Valores nulos: 0
- Valores duplicados: 68
+ Valores duplicados: 294
  Valor más común: URBANA
 
  Variable STATUS:
  Tipo: object
  Valores únicos: 1
  Valores nulos: 0
- Valores duplicados: 69
+ Valores duplicados: 295
  Valor más común: ABIERTA
 
  Variable MODALIDAD:
  Tipo: object
  Valores únicos: 1
  Valores nulos: 0
- Valores duplicados: 69
+ Valores duplicados: 295
  Valor más común: MONOLINGUE
 
  Variable JORNADA:
  Tipo: object
  Valores únicos: 5
  Valores nulos: 0
- Valores duplicados: 65
- Valor más común: VESPERTINA
+ Valores duplicados: 291
+ Valor más común: DOBLE
 
  Variable PLAN:
  Tipo: object
- Valores únicos: 5
+ Valores únicos: 6
  Valores nulos: 0
- Valores duplicados: 65
+ Valores duplicados: 290
  Valor más común: DIARIO(REGULAR)
 
  Variable DEPARTAMENTAL:
  Tipo: object
  Valores únicos: 1
  Valores nulos: 0
- Valores duplicados: 69
- Valor más común: ZACAPA
+ Valores duplicados: 295
+ Valor más común: JUTIAPA
 
 ==================================================
